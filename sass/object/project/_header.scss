@@ -1,0 +1,36 @@
+@use "./global/_variables.scss" as var;
+
+.p-header {
+    height: 215px;
+    padding: 40px 0;
+    position: relative;
+    background-color: var.$pink-light;
+    text-align: center;
+
+}
+
+.p-header__title {
+    color: var.$gray;
+    font-size: 36px;
+    margin-bottom: 40px;
+    line-height: 48px;
+    
+}
+
+.p-header__menu-button {
+    color: var.$gray;
+    font-size: 18px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-weight: 700;
+
+}
+
+.p-header__form {
+    
+}
+
+.p-header__form-input {
+    margin-right: 12px;
+}

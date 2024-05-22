@@ -1,0 +1,11 @@
+@use "./foundation/_reset.scss";
+@use "./foundation/_font-family.scss";
+
+@use "./global/*";
+
+@use  "./layout/*";
+
+@use "./object/component/*";
+@use "./object/project/*";
+@use "./object/utility/*";
+
