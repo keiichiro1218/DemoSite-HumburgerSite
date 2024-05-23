@@ -1,0 +1,8 @@
+@use "./global/_variables.scss" as var;
+
+.c-page-title {
+  color: var.$white;
+  font-size: 36px;
+  font-weight: 700;
+    
+}

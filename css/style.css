@@ -279,6 +279,57 @@ html {
   font-family: "Roboto", "M PLUS 1p", sans-serif;
 }
 
+.c-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-position: center;
+  background-size: 143%;
+  width: 100%;
+  height: 640px;
+  padding: 16px;
+}
+
+.c-card__title {
+  color: #EAEAEA;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1em;
+}
+.c-card__title::after {
+  content: "";
+  width: 33px;
+  height: 4px;
+  display: block;
+  background-color: #EAEAEA;
+  margin-top: 16px;
+}
+
+.c-card--img-takeout {
+  background-image: url("../img/front-page__burger.jpeg");
+}
+
+.c-card--img-eatin {
+  background-image: url("../img/front-page__potato.png");
+}
+
+.c-card__content {
+  background-color: #FFFFFF;
+  opacity: 0.8;
+  padding: 10px 12px;
+}
+
+.c-card__content--top {
+  margin-bottom: 16px;
+}
+
+.c-card__content-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1em;
+  margin-bottom: 8px;
+}
+
 .c-form {
   display: flex;
   justify-content: center;
@@ -299,6 +350,20 @@ html {
   border-radius: 10px;
   background-color: #F2EDE9;
   border: 1px #707070 solid;
+}
+
+.c-page-title {
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.p-front {
+  padding: 20px 0 50px;
+}
+
+.p-front__card--top {
+  margin-bottom: 16px;
 }
 
 .p-header {
@@ -329,6 +394,31 @@ html {
   margin-right: 12px;
 }
 
+.p-page-visual {
+  position: relative;
+}
+
+.p-page-visual__img {
+  display: block;
+  width: 100%;
+}
+
+.u-sentence {
+  font-size: 17px;
+}
+
 .u-fw-bold {
   font-weight: 700;
+}
+
+.u-inner {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.u-title--position {
+  position: absolute;
+  top: 53%;
+  left: 6%;
+  transform: translateY(-50%);
 }

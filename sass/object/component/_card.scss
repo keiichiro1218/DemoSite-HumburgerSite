@@ -1,0 +1,65 @@
+@use "./global/_variables.scss" as var;
+
+.c-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-position: center;
+    background-size: 143%;
+    width: 100%;
+    height: 640px;
+    padding: 16px;
+
+}
+
+.c-card__title {
+    color: var.$gray-light;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1em;
+
+    &::after {
+        content: '';
+        width: 33px;
+        height: 4px;
+        display: block;
+        background-color: var.$gray-light;
+        margin-top: 16px;
+        
+    }
+
+}
+
+.c-card--img-takeout {
+    background-image: url('../img/front-page__burger.jpeg');
+
+}
+
+.c-card--img-eatin {
+    background-image: url('../img/front-page__potato.png');
+
+}
+
+.c-card__contents {
+    
+}
+
+.c-card__content {
+    background-color: var.$white;
+    opacity: 0.8;
+    padding: 10px 12px;
+
+}
+
+.c-card__content--top {
+    margin-bottom: 16px;
+
+}
+
+.c-card__content-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1em;
+    margin-bottom: 8px;
+
+}

@@ -1,0 +1,9 @@
+@use "./global/_variables.scss" as var;
+
+.u-title--position {
+    position: absolute;
+    top: 53%;
+    left: 6%;
+    transform: translateY(-50%);
+   
+}

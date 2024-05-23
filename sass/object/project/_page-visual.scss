@@ -1,0 +1,14 @@
+@use "./global/_variables.scss" as var;
+
+.p-page-visual {
+    position: relative;
+
+}
+
+.p-page-visual__img {
+    display: block;
+    width: 100%;
+    // height: 285px;
+    // object-fit: cover;
+}
+// ↑あとでレスポンシブで使用する
