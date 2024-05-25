@@ -1,0 +1,24 @@
+@use "./global/_variables.scss" as var;
+.u-under-line {
+    &::after {
+        content: '';
+        width: 33px;
+        height: 4px;
+        display: block;
+        background-color: var.$gray-light;
+        margin-top: 16px;
+        
+    }
+}
+
+.u-under-line_long {
+    &::after {
+        content: '';
+        width: 75px;
+        height: 2px;
+        display: block;
+        background-color: var.$gray-light;
+        margin-top: 14px;
+        
+    }
+}

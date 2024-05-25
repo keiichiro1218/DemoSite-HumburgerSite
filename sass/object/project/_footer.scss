@@ -1,0 +1,32 @@
+@use "./global/_variables.scss" as var;
+
+.p-footer {
+    min-height: 150px;
+    background: var.$brown;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.p-footer__menu {
+    display: flex;
+    justify-content: center;
+}
+
+.p-footer__link {
+    color: var.$white;
+    font-size: 18px;
+    padding: 0 7px;
+    line-height: 1em;
+        &:nth-child( n + 2) {
+            border-left: solid 1px;
+        }
+
+}
+
+.p-footer__Copyright {
+    color: var.$white;
+    
+}
