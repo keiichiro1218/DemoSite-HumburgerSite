@@ -1,33 +1,62 @@
-@use "./global/_variables.scss" as var;
+@use "./foundation/_var-mixin.scss" as var-mixin;
 
 .p-header {
     height: 215px;
     padding: 40px 0;
     position: relative;
-    background-color: var.$pink-light;
+    background-color: var-mixin.$pink-light;
     text-align: center;
 
 }
 
+.wrapper {
+    display: block;
+}
+
 .p-header__title {
-    color: var.$gray;
+    color: var-mixin.$gray;
     font-size: 36px;
-    margin-bottom: 40px;
+    margin-bottom: 36px;
     line-height: 48px;
     
 }
 
-.p-header__menu-button {
-    color: var.$gray;
-    font-size: 18px;
+.p-header__menu-button_sp {
+    width: fit-content;
+    height: 36px;
     position: absolute;
     top: 8px;
     right: 8px;
-    font-weight: 700;
 
 }
 
+.p-header__menu-button_open {
+    color: var-mixin.$gray;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    @include var-mixin.tab {
+        font-size: 36px;
+    }
+
+}
+
+.p-header__menu-button_close {
+    position: absolute;
+    display: none;
+    top: 8px;
+    right: 8px;
+    z-index: 20;
+    
+}
+
 .p-header__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 

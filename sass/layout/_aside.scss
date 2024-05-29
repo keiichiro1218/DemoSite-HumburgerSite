@@ -1,0 +1,34 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.l-aside {
+    z-index: 10;
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var-mixin.$gray-thin;
+
+    @include var-mixin.tab {
+        width: 20%;
+        position: static;
+
+    }
+    
+}
+
+.l-aside__inner {
+    position: relative;
+    padding-top: 180px;
+    padding-left: 15%;
+
+}
+
+.open {
+    display: block;
+    z-index: 20;
+}
+
+
+
+

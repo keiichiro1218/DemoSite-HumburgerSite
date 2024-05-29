@@ -1,13 +1,18 @@
-@use "./global/_variables.scss" as var;
+@use "./foundation/_var-mixin.scss" as var-mixin;
 
 .p-footer {
     min-height: 150px;
-    background: var.$brown;
+    background: var-mixin.$brown;
     padding: 16px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+
+    @include var-mixin.tab {
+        font-size: 26px;
+        padding: 30px;
+    }
 }
 
 .p-footer__menu {
@@ -16,7 +21,7 @@
 }
 
 .p-footer__link {
-    color: var.$white;
+    color: var-mixin.$white;
     font-size: 18px;
     padding: 0 7px;
     line-height: 1em;
@@ -27,6 +32,6 @@
 }
 
 .p-footer__Copyright {
-    color: var.$white;
+    color: var-mixin.$white;
     
 }

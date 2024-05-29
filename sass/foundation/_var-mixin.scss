@@ -1,0 +1,21 @@
+// 変数
+$white: #FFFFFF;
+$gray: #707070;
+$gray_button: #F2EDE9;
+$gray-light: #EAEAEA;
+$gray-thin: #F2EDE9;
+$black: #000000;
+$brown: #3C2A10;
+$pink-light: #FFF7EF;
+
+
+// mixin
+$pc: 1080px;
+$tab: 835px;
+$sp: 376px;
+
+@mixin tab {
+    @media screen and (min-width: ($tab)) {
+      @content;
+    }
+  }

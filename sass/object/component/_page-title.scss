@@ -1,7 +1,7 @@
-@use "./global/_variables.scss" as var;
+@use "./foundation/_var-mixin.scss" as var-mixin;
 
 .c-page-title {
-  color: var.$white;
+  color: var-mixin.$white;
   font-size: 36px;
   font-weight: 700;
     

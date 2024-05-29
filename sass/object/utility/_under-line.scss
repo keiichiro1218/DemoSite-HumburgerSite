@@ -1,13 +1,14 @@
-@use "./global/_variables.scss" as var;
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
 .u-under-line {
     &::after {
         content: '';
         width: 33px;
         height: 4px;
         display: block;
-        background-color: var.$gray-light;
+        background-color: var-mixin.$gray-light;
         margin-top: 16px;
-        
+       
     }
 }
 
@@ -17,7 +18,7 @@
         width: 75px;
         height: 2px;
         display: block;
-        background-color: var.$gray-light;
+        background-color: var-mixin.$gray-light;
         margin-top: 14px;
         
     }

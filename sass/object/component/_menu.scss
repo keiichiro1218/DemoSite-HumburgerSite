@@ -1,0 +1,21 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.c-menu {
+    display: none;
+
+    @include var-mixin.tab {
+        display: block;
+
+    }
+}
+
+.c-menu__list {
+    margin-bottom: 60px;
+    
+}
+
+.c-menu__item {
+    display: block;
+    margin-bottom: 40px;
+    
+}

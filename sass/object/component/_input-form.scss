@@ -1,5 +1,7 @@
 @use "./foundation/_var-mixin.scss" as var-mixin;
 
-.u-fc_white {
-    color: var-mixin.$white;
+.c-input-form {
+    position: relative;
+
+    
 }

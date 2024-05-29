@@ -1,0 +1,31 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.c-button_close-sp {
+    display: block;
+    position: relative;
+    
+
+    &::before {
+        transform: rotate(45deg);
+
+    }
+
+    &::after {
+        transform: rotate(-45deg);
+
+    }
+}
+
+.c-button_sp__line {
+
+    &::before,&::after {
+        content: "";
+        position: absolute;
+        width: 38px;
+        top: 16px;
+        right: 0;
+        height: 6px;
+        background-color: var-mixin.$gray;
+    }
+}
+

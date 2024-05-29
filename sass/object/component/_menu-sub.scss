@@ -1,0 +1,15 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.c-menu-sub {
+    padding-left: 22px;
+    
+}
+
+.c-menu-sub__list {
+    margin-bottom: 24px;
+
+}
+
+.c-menu-sub__item {
+    font-size: 20px;
+}

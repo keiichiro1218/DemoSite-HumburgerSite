@@ -1,0 +1,17 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.c-serch-icon {
+    position: absolute;
+    top: 53%;
+    left: 3%;
+    transform: translateY(-50%);
+    
+    
+
+
+    height: 24px;
+    width: 24px;
+    font-size: 24px;
+    display: inline-block;
+    
+}

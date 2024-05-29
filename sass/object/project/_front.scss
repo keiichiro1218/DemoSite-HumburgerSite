@@ -1,7 +1,20 @@
-@use "./global/_variables.scss" as var;
+@use "./foundation/_var-mixin.scss" as var-mixin;
 
 .p-front {
     padding: 20px 0 50px;
+
+    @include var-mixin.tab {
+        padding: 40px 0 40px;
+
+    }
+}
+
+.p-front-category__menu {
+
+    @include var-mixin.tab {
+        display: flex;
+
+    }
 }
 
 .p-front__card--top {

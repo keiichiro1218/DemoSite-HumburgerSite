@@ -1,11 +1,21 @@
-@use "./global/_variables.scss" as var;
+@use "./foundation/_var-mixin.scss" as var-mixin;
 
 .u-fs_map {
     font-size: 30px;
-    
+
 }
 
 .u-fs_sentence {
     font-size: 14px;
+
+}
+
+.u-fs_menu-title {
+    font-size: 24px;
+
+}
+
+.u-fs_menu {
+    font-size: 16px;
 
 }

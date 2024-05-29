@@ -1,5 +1,6 @@
 @use "./foundation/_var-mixin.scss" as var-mixin;
 
-.u-fc_white {
-    color: var-mixin.$white;
+.u-open {
+    display: block;
+    
 }

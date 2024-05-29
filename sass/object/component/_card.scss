@@ -1,4 +1,4 @@
-@use "./global/_variables.scss" as var;
+@use "./foundation/_var-mixin.scss" as var-mixin;
 
 .c-card {
     display: flex;
@@ -10,10 +10,18 @@
     height: 640px;
     padding: 16px;
 
+    @include var-mixin.tab {
+        width: 47%;
+
+        &:nth-child(2) {
+            margin-left: 5%;
+        }
+
+    }
 }
 
 .c-card__title {
-    color: var.$gray-light;
+    color: var-mixin.$gray-light;
     font-size: 36px;
     font-weight: 700;
     line-height: 1em;
@@ -35,7 +43,7 @@
 }
 
 .c-card__content {
-    background-color: var.$white;
+    background-color: var-mixin.$white;
     opacity: 0.8;
     padding: 10px 12px;
 

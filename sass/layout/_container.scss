@@ -1,1 +1,16 @@
-@use "./global/_variables.scss" as var;
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.l-container {
+    // height: 100%;
+    // margin: 0;
+    // padding: 0;
+    // box-sizing: border-box;
+    /* ここを追加 */
+    position: relative;
+
+    @include var-mixin.tab {
+        display: flex;
+
+    }
+
+}

@@ -1,3 +1,5 @@
-.u-fw-bold {
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.u-fw_bold {
     font-weight: 700;
 }

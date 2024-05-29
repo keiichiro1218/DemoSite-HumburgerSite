@@ -1,0 +1,14 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.c-input-text {
+    width: 216px;
+    line-height: 46px;
+    padding: 0 36px;
+    background-color: var-mixin.$white;
+    border-radius: 10px;
+    border: 1px var-mixin.$gray solid;
+
+    @include var-mixin.tab {
+        width: 400px;
+    } 
+}

@@ -1,0 +1,10 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.l-main {
+    
+
+    @include var-mixin.tab {
+        width: 80%;
+
+    }
+}

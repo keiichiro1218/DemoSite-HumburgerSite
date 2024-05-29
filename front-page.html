@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>HamburgerSite</title>
+    <script src="https://kit.fontawesome.com/73db00d111.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Roboto:ital,wght@0,100;0,
@@ -15,18 +16,28 @@
         <div class="l-main">
             <header class="p-header">
                 <h1 class="p-header__title u-fw-bold">Hamburger</h1>
-                <div class="p-header__menu-button">Menu</div>
-                <form action="" class="c-form p-header__form">
-                    <input type="text" class="c-form__input p-header__form-input">
-                    <div class="c-form__button">検索</div>
+                <div class="p-header__menu-button_sp">
+                    <div class="p-header__menu-button_open">
+                        Menu
+                    </div>               
+                    <div class="p-header__menu-button_close">
+                        <div class="c-button_close-sp c-button_sp__line"></div>
+                    </div>
+                </div>
+                <form action="" class="p-header__form">
+                    <div class="c-input-form">
+                        <input type="text" class="c-input-text p-header__form-input">
+                        <i class="fa-solid fa-magnifying-glass c-serch-icon"></i>
+                    </div>
+                    <div class="c-button-form">検索</div>
                 </form>
             </header>
             <!-- p-header -->
             <div class="p-page-visual">
-                <picture class="p-page-visual__picture">
-                    <source srcset="./img/mainvisual-pc@2x.jpg" media="(min-width: 834px)" type="image/jpg">
-                    <img class="p-page-visual__img" src="./img/mainvisual-sp@2x.jpg" alt="">
-                </picture>
+                <!-- <picture class="p-page-visual__picture"> -->
+                    <!-- <source srcset="./img/mainvisual-pc@2x.jpg" media="(min-width: 834px)" type="image/jpg">
+                    <img class="p-page-visual__img" src="./img/mainvisual-sp@2x.jpg" alt=""> -->
+                <!-- </picture> -->
                 <div class="u-title--position c-page-title">
                     ダミーサイト
                 </div>
@@ -39,7 +50,7 @@
                         </div>
                         <div class="c-card__contents">
                             <div class="c-card__content c-card__content--top">
-                                <p class="c-card__content-title u-under-line">
+                                <p class="c-card__content-title">
                                     Take Out
                                 </p>
                                 <p class="u-sentence">
@@ -105,9 +116,54 @@
         </div>
         <!-- l-main -->
         <div class="l-aside">
-            
+            <div class="l-aside__inner">
+                <nav class="p-nav">
+                    <ul class="c-menu">
+                        <li class="c-menu__list">
+                            <a href="" class="c-menu__item u-fs_menu-title u-fw_bold">
+                                バーガー
+                            </a>
+                            <ul class="c-menu-sub">
+                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">ハンバーガー</a></li>
+                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">チーズバーガー</a></li>
+                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">テリヤキバーガー</a></li>
+                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">アボカドバーガー</a></li>
+                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">フィッシュバーガー</a></li>
+                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">ベーコンバーガー</a></li>
+                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">チキンバーガー</a></li>
+                               
+                            </ul>
+                        </li>
+                        <li class="c-menu__list">
+                            <a href="" class="c-menu__item u-fs_menu-title u-fw_bold">
+                                サイド
+                            </a>
+                            <ul class="c-menu-sub">
+                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">ポテト</a></li>
+                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">サラダ</a></li>
+                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">ナゲット</a></li>
+                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">コーン</a></li>
+                            </ul>
+                        </li>
+                        <li class="c-menu__list">
+                            <a href="" class="c-menu__item u-fs_menu-title u-fw_bold">
+                                ドリンク
+                            </a>
+                            <ul class="c-menu-sub">
+                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">ハンバーガー</a></li>
+                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">チーズバーガー</a></li>
+                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">テリヤキバーガー</a></li>
+                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">ハンバーガー</a></li>
+                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">ハンバーガー</a></li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
         </div>
         <!-- l-aside -->
+        <div class="p-background-sp-menu"></div>
     </div>
     <!-- l-container -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
