@@ -8,7 +8,7 @@
     /* ここを追加 */
     position: relative;
 
-    @include var-mixin.tab {
+    @include var-mixin.pc {
         display: flex;
 
     }

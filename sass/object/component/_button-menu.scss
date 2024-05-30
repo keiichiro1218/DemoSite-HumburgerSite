@@ -1,0 +1,15 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.c-button-menu {
+    color: var-mixin.$gray;
+    font-size: 18px;
+    font-weight: 700;
+
+    @include var-mixin.tab {
+        font-size: 24px;
+    }
+
+    @include var-mixin.pc-wide {
+        font-size: 36px;
+    }
+}

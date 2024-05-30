@@ -1,20 +1,20 @@
 jQuery(".p-header__menu-button_open").on("click", function(){
     jQuery(".l-aside").animate({
-        width: '80%'
+        right: '0%'
     }, 300);
     jQuery(".p-background-sp-menu").animate({
-        width: '20%'
+        left: '0%'
     }, 300);
-    jQuery(".p-header__menu-button_close, .c-menu ,.p-background").addClass("u-open");
+    jQuery(".l-aside, .p-background").addClass("u-open");
 });
 
-jQuery(".p-header__menu-button_close").on("click", function(){
+jQuery(".l-aside__button_close").on("click", function(){
     jQuery(".l-aside").animate({
-        width: '0%'
+        right: '-100%'
     }, 300);
     jQuery(".p-background-sp-menu").animate({
-        width: '0%'
+        left: '-100%'
     }, 300);
-    jQuery(".p-header__menu-button_close, .c-menu, .p-background").removeClass("u-open");
+    jQuery(".l-aside, .p-background").removeClass("u-open");
     
 });

@@ -1,65 +1,72 @@
 @use "./foundation/_var-mixin.scss" as var-mixin;
 
-.p-header {
+.l-header {
     height: 215px;
     padding: 40px 0;
     position: relative;
     background-color: var-mixin.$pink-light;
     text-align: center;
 
+    @include var-mixin.pc {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
 }
 
-.wrapper {
-    display: block;
-}
-
-.p-header__title {
+.l-header__title {
     color: var-mixin.$gray;
     font-size: 36px;
     margin-bottom: 36px;
     line-height: 48px;
+
+    @include var-mixin.pc {
+        margin-bottom: 0;
+        margin-left: 5%;
+
+    }
+
+    @include var-mixin.pc-wide {
+        font-size: 56px;
+
+    }
     
 }
 
-.p-header__menu-button_sp {
+.l-header__menu-button_sp {
     width: fit-content;
     height: 36px;
     position: absolute;
     top: 8px;
     right: 8px;
 
-}
+    @include var-mixin.pc {
+        display: none;
 
-.p-header__menu-button_open {
-    color: var-mixin.$gray;
-    font-size: 18px;
-    font-weight: 700;
-    position: absolute;
-    top: 8px;
-    right: 8px;
-
-    @include var-mixin.tab {
-        font-size: 36px;
     }
 
 }
 
-.p-header__menu-button_close {
+.l-header__menu-button_open {
     position: absolute;
-    display: none;
     top: 8px;
     right: 8px;
-    z-index: 20;
-    
+
 }
 
-.p-header__form {
+.l-header__form {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include var-mixin.pc {
+        margin-right: 2%;
+    
+    }
     
 }
 
-.p-header__form-input {
+.l-header__form-input {
     margin-right: 12px;
 }

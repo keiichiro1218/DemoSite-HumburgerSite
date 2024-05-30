@@ -10,12 +10,24 @@ $pink-light: #FFF7EF;
 
 
 // mixin
-$pc: 1080px;
-$tab: 835px;
-$sp: 376px;
+$pc-wide: 1300px;
+$tab: 1000px;
+$sp: 650px;
 
 @mixin tab {
+    @media screen and (min-width: ($sp)) {
+      @content;
+    }
+  }
+
+@mixin pc {
     @media screen and (min-width: ($tab)) {
+      @content;
+    }
+  }
+
+@mixin pc-wide {
+    @media screen and (min-width: ($pc-wide)) {
       @content;
     }
   }

@@ -2,15 +2,20 @@
 
 .l-aside {
     z-index: 10;
-    width: 0%;
+    width: 80%;
     height: 100%;
     position: absolute;
     top: 0;
-    right: 0;
+    right: -100%;
     background-color: var-mixin.$gray-thin;
+    
+    display: none;
+   
 
-    @include var-mixin.tab {
-        width: 20%;
+    @include var-mixin.pc {
+        width: 25%;
+        display: block;
+        height: auto;
         position: static;
 
     }
@@ -22,11 +27,36 @@
     padding-top: 180px;
     padding-left: 15%;
 
+    @include var-mixin.pc {
+        padding-top: 86px;
+
+    }
 }
 
-.open {
-    display: block;
+.l-aside__button {
+    margin-bottom: 80px;
+
+
+    @include var-mixin.tab {
+        display: none;
+
+    }
+    @include var-mixin.pc {
+        display: block;
+
+    }
+}
+
+.l-aside__button_close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
     z-index: 20;
+
+    @include var-mixin.pc {
+        display: none;
+    }
+    
 }
 
 

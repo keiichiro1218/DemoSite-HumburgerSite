@@ -3,8 +3,8 @@
 .l-main {
     
 
-    @include var-mixin.tab {
-        width: 80%;
+    @include var-mixin.pc {
+        width: 75%;
 
     }
 }

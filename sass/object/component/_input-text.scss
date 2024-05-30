@@ -11,4 +11,8 @@
     @include var-mixin.tab {
         width: 400px;
     } 
+
+    @include var-mixin.pc {
+        width: 250px;
+    } 
 }

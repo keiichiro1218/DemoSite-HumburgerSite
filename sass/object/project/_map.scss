@@ -25,6 +25,11 @@
     
         }
 
+        @include var-mixin.pc {
+            background: linear-gradient(to right, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 70%, rgba(0,0,0,0.28) 30%, rgba(0,0,0,0.28) 100%);
+    
+        }
+
     }
 }
 
@@ -42,6 +47,13 @@
     position: absolute;
     height: 100%;
     padding: 40px 40px 60px;
+
+    @include var-mixin.pc {
+        width: 70%;
+
+    }
+
+
 
 }
 

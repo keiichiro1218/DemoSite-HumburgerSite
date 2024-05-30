@@ -1,12 +1,9 @@
 @use "./foundation/_var-mixin.scss" as var-mixin;
 
 .c-menu {
-    display: none;
+    display: block;
 
-    @include var-mixin.tab {
-        display: block;
 
-    }
 }
 
 .c-menu__list {
@@ -17,5 +14,6 @@
 .c-menu__item {
     display: block;
     margin-bottom: 40px;
+    color: var-mixin.$gray;
     
 }
