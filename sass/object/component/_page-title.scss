@@ -11,5 +11,9 @@
   color: var-mixin.$white;
   font-size: 20px;
   font-weight: 700;
+
+  @include var-mixin.tab {
+    margin-left: 20px;
+}
     
 }

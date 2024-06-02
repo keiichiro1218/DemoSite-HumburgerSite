@@ -4,17 +4,36 @@
     &:not(:last-child) {
         margin-bottom: 30px;
     }
-    
 
+    @include var-mixin.tab {
+        display: flex;
+        margin-bottom: 100px;
+    }
+}
+
+.p-media__wrapper {
+
+    @include var-mixin.tab {
+       bottom: 100px;
+    }
 }
 
 .p-media__img {
     width: 100%;
+
     display: block;
+    object-fit: cover;
+    object-position: left;
+    width: 100%;
+    height: 100%;
 
 }
 
 .p-media__img-wrapper {
+
+    @include var-mixin.tab {
+        width: 50%;
+    }
     
 
 }
@@ -23,6 +42,10 @@
     color: var-mixin.$white;
     background-color: var-mixin.$brown;
     padding: 32px 5% 42px;
+
+    @include var-mixin.tab {
+        width: 50%;
+    }
 
 }
 

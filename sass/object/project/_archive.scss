@@ -2,6 +2,10 @@
 
 .p-archive {
     padding: 20px 5% 60px;
+
+    @include var-mixin.tab {
+        padding-top: 40PX;    
+    }
 }
 
 .p-archive__conetnts {
