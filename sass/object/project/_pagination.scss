@@ -12,9 +12,14 @@
 }
 
 .p-pnagenation__page-num {
+    display: none;
     font-size: 12px;
     font-weight: bold;
     margin-right: 12px;
+
+    @include var-mixin.tab {
+        display: block;
+     }
 }
 
 .p-pagenation__btn-wrapper {
@@ -41,10 +46,13 @@
 }
 
 .p-pagenation__pages {
-    display: flex;
+    display: none;
     margin-left: 12px;
     margin-right: 12px;
-    
+
+    @include var-mixin.tab {
+        display: flex;
+     }
 }
 
 .p-pagenation__page {

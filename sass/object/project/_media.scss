@@ -12,6 +12,7 @@
 }
 
 .p-media__wrapper {
+    margin-bottom: 60px;
 
     @include var-mixin.tab {
        bottom: 100px;
@@ -47,6 +48,15 @@
         width: 50%;
     }
 
+    @include var-mixin.pc {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.p-media__content-wrapper {
+   
 }
 
 .p-media__menu {

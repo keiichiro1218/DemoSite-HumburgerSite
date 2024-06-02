@@ -3,4 +3,9 @@
 .u-inner {
     padding-left: 5%;
     padding-right: 5%;
+
+    @include var-mixin.pc {
+        padding-left: 10%;
+        padding-right: 10%;
+     }
 }

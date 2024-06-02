@@ -473,6 +473,13 @@ html {
   line-height: 1em;
   font-weight: bold;
 }
+@media screen and (min-width: 1000px) {
+  .c-btn-media {
+    width: 300px;
+    padding: 24px 80px;
+    border-radius: 30px;
+  }
+}
 
 .c-button-form {
   font-size: 16px;
@@ -771,6 +778,9 @@ html {
   }
 }
 
+.p-media__wrapper {
+  margin-bottom: 60px;
+}
 @media screen and (min-width: 650px) {
   .p-media__wrapper {
     bottom: 100px;
@@ -800,6 +810,13 @@ html {
 @media screen and (min-width: 650px) {
   .p-media__body {
     width: 50%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .p-media__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
 
@@ -878,9 +895,15 @@ html {
 }
 
 .p-pnagenation__page-num {
+  display: none;
   font-size: 12px;
   font-weight: bold;
   margin-right: 12px;
+}
+@media screen and (min-width: 650px) {
+  .p-pnagenation__page-num {
+    display: block;
+  }
 }
 
 .p-pagenation__btn-wrapper {
@@ -906,9 +929,14 @@ html {
 }
 
 .p-pagenation__pages {
-  display: flex;
+  display: none;
   margin-left: 12px;
   margin-right: 12px;
+}
+@media screen and (min-width: 650px) {
+  .p-pagenation__pages {
+    display: flex;
+  }
 }
 
 .p-pagenation__page {
@@ -1000,6 +1028,12 @@ html {
 .u-inner {
   padding-left: 5%;
   padding-right: 5%;
+}
+@media screen and (min-width: 1000px) {
+  .u-inner {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 
 .u-open {
