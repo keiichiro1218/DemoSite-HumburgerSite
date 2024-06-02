@@ -1,0 +1,48 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.p-media {
+    &:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    
+
+}
+
+.p-media__img {
+    width: 100%;
+    display: block;
+
+}
+
+.p-media__img-wrapper {
+    
+
+}
+
+.p-media__body {
+    color: var-mixin.$white;
+    background-color: var-mixin.$brown;
+    padding: 32px 5% 42px;
+
+}
+
+.p-media__menu {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.p-media__heading {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.p-media__text {
+    margin-bottom: 40px;
+}
+
+.p-media__button {
+    text-align: center;
+    
+
+}
+

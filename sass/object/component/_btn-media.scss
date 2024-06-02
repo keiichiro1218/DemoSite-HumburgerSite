@@ -1,0 +1,15 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.c-btn-media {
+    display: inline-block;
+    width: 160px;
+    max-width: 100%;
+    padding: 12px 40px;
+    background-color: var-mixin.$white;
+    color: var-mixin.$brown;
+    font-size: 16px;
+    border-radius: 20px;
+    line-height: 1em;
+    font-weight: bold;
+
+}

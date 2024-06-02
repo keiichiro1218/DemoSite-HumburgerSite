@@ -1,0 +1,20 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.p-archive {
+    padding: 20px 5% 60px;
+}
+
+.p-archive__conetnts {
+    
+}
+
+.p-archive__title {
+    font-size: 28px;
+    margin-bottom: 24px;
+   
+}
+
+.p-archive__sentence {
+    margin-bottom: 20px;
+   
+}

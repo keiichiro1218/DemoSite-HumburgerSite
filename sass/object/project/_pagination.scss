@@ -1,0 +1,83 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.p-pagenation {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.p-pagenation__btn-wrapper {
+    display: flex;
+    
+}
+
+.p-pagenation__prev {
+    margin-left: 10px;
+    
+}
+
+.p-pagenation__next {
+    margin-right: 10px;
+    
+}
+
+.p-pagenation__arrow {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.p-pagenation__arrow--left {
+    &::before, &::after {
+
+        content: "";
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin: 0 10px;
+            border-left: 1px solid #000;
+            border-bottom: 1px solid #000;
+            transform: rotate(45deg) translateY(-50%);
+            position: absolute;
+            top: 50%;
+          
+    }
+
+    &::before {
+        left: -10px;
+    }
+
+    &::after {
+        left: 0px;
+    }
+}
+
+.p-pagenation__arrow--right {
+    &::before, &::after {
+
+        content: "";
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin: 0 10px;
+            border-right: 1px solid #000;
+            border-top: 1px solid #000;
+            transform: rotate(45deg) translateY(-50%);
+            position: absolute;
+            top: 50%;
+          
+    }
+
+    &::before {
+        right: -2px;
+    }
+
+    &::after {
+        right: 6px;
+    }
+}
+
+
+
+

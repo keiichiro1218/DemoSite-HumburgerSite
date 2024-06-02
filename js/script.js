@@ -1,4 +1,4 @@
-jQuery(".p-header__menu-button_open").on("click", function(){
+jQuery(".l-header__menu-button_open").on("click", function(){
     jQuery(".l-aside").animate({
         right: '0%'
     }, 300);
