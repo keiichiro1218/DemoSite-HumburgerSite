@@ -1,0 +1,36 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.p-citing {
+    background: var-mixin.$gray-citing;
+    padding: 24px 5%;
+    margin-bottom: 30px;
+    
+}
+
+.p-citing__body {
+    text-align: justify;
+    
+}
+
+.p-citing__source {
+    display: flex;
+    
+}
+
+.p-citing__source-origin {
+    
+    
+}
+
+.p-citing__source-name {
+    
+    
+}
+
+.p-citing__source-link {
+    text-decoration: underline;
+    color: var-mixin.$blue-link;
+
+    
+    
+}

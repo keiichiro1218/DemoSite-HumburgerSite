@@ -1,0 +1,21 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.p-img-repeate {
+    
+}
+
+.p-img-repeate__img-wrapper {
+
+    &:not(:last-child){
+        margin-bottom: 20px;
+
+    }
+
+}
+
+.p-img-repeate__img {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+
+}

@@ -35,12 +35,8 @@
 
 .l-aside__button {
     margin-bottom: 80px;
+    display: none;
 
-
-    @include var-mixin.tab {
-        display: none;
-
-    }
     @include var-mixin.pc {
         display: block;
 
@@ -58,7 +54,3 @@
     }
     
 }
-
-
-
-

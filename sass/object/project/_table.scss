@@ -1,0 +1,29 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.p-table {
+    margin-bottom: 60px;
+    
+}
+
+.p-table__body {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var-mixin.$brown;
+
+}
+
+.p-table__th, .p-table__td {
+    border: 1px solid var-mixin.$brown;
+    
+}
+
+.p-table__th {
+    width: 40%;
+    text-align: left;
+    padding: 25px 0 25px 25px;
+}
+
+.p-table__td {
+    width: 70%;
+    padding: 25px 0 25px 25px;
+}

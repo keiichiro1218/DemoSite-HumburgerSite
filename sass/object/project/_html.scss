@@ -1,0 +1,18 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.p-html {
+    background-color: var-mixin.$gray-citing;
+    padding: 50px;
+    margin-bottom: 30px;
+
+}
+
+.p-html__wrapper {
+    font-size: 16px;
+    color: var-mixin.$brown;
+
+}
+
+.p-html__content {
+    margin-left: 20px;
+}

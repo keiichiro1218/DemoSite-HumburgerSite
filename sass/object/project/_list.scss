@@ -1,0 +1,39 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.p-list {
+    &:first-child {
+        margin-bottom: 60px;
+
+    }
+
+    &:last-child {
+        margin-bottom: 25px;
+    }
+    
+}
+
+.p-list_wrapper {
+    
+}
+
+.p-list__content {
+    &:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    &:nth-child(2) {
+        margin-left: 10px;
+    }
+    
+}
+
+.p-list__content-first {
+   
+    
+}
+
+.p-list__sub {
+    margin-left: 20px;
+    margin-bottom: 16px;
+
+}
