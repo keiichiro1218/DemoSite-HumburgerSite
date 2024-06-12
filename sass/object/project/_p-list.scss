@@ -13,7 +13,10 @@
 }
 
 .p-list_wrapper {
-    
+    @include var-mixin.tab {
+        margin-bottom: 60px;
+
+    }
 }
 
 .p-list__content {
@@ -24,11 +27,6 @@
     &:nth-child(2) {
         margin-left: 10px;
     }
-    
-}
-
-.p-list__content-first {
-   
     
 }
 

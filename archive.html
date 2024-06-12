@@ -15,26 +15,32 @@
     <div class="l-container">
         <div class="l-main">
             <header class="l-header">
-                <h1 class="l-header__title u-fw-bold">Hamburger</h1>
-                <div class="l-header__menu-button_sp">
-                    <div class="l-header__menu-button_open c-button-menu">
-                        Menu
-                    </div> 
-                    <!-- .l-header__menu-button_open -->
-                </div>
-                <!-- .l-header__menu-button_sp -->
-                <form action="" class="l-header__form">
-                    <div class="c-input-form">
-                        <input type="text" class="c-input-text l-header__form-input">
-                        <i class="fa-solid fa-magnifying-glass c-serch-icon"></i>
+                <div class="p-header">
+                    <h1 class="p-header__logo u-fw-bold">Hamburger</h1>
+                    <div class="p-header__menu-button_sp">
+                        <div class="p-header__menu-button_open c-button-menu">
+                            Menu
+                        </div> 
+                        <!-- .p-header__menu-button_open -->
                     </div>
-                    <!-- .c-input-form -->
-                    <div class="c-button">検索</div>
-                </form>
-                <!-- .l-header__form -->
+                    <!-- .p-header__menu-button_sp -->
+                    <form action="" class="p-form">
+                        <div class="p-form__body">
+                            <input type="text" class="c-input-text p-form__input">
+                            <i class="fa-solid fa-magnifying-glass c-serch-icon"></i>
+                        </div>
+                        <!-- .p--form__body -->
+                        <div class="c-button">
+                            検索
+                        </div>
+                        <!-- .c-button -->
+                    </form>
+                    <!-- .p-form -->
+                </div>
+                <!-- /.p-header -->
             </header>
-            <!-- p-header -->
-            <div class="p-page-visual p-page-visual--archive">
+            <!-- .l-header -->
+            <div class="p-page-visual p-page-visual_archive">
                 <div class="p-page-visual__title u-title--position">
                     <div class="c-page-title">
                         Menu:
@@ -176,7 +182,7 @@
                     </div>
                     <!-- /.p-pnagenation__page-num -->
                     <div class="p-pagenation__btn-wrapper">
-                        <div class="p-pagenation__arrow p-pagenation__arrow--left">
+                        <div class="p-pagenation__arrow p-pagenation__arrow_left">
 
                         </div>
                         <!-- /.p-pagenation__arrow -->
@@ -231,7 +237,7 @@
                             次へ
                         </div>
                         <!-- /.p-pagenation__next -->
-                        <div class="p-pagenation__arrow p-pagenation__arrow--right">
+                        <div class="p-pagenation__arrow p-pagenation__arrow_right">
 
                         </div>
                         <!-- /.p-pagenation__arrow -->
@@ -241,28 +247,31 @@
             </div>
             <!-- .p-archive -->
             <footer class="l-footer">
-                <div class="l-footer__menu">
-                    <a href="" class="l-footer__link">ショップ情報</a>
-                    <a href="" class="l-footer__link">ヒストリー</a>
+                <div class="p-footer">
+                    <div class="p-footer__menu">
+                        <a href="" class="p-footer__link">ショップ情報</a>
+                        <a href="" class="p-footer__link">ヒストリー</a>
+                    </div>
+                    <!-- .p-footer__menu -->
+                    <div class="p-footer__Copyright u-fs_sentence">Copyright: RaiseTech</div>
                 </div>
-                <!-- .l-footer__menu -->
-                <div class="l-footer__Copyright u-fs_sentence">Copyright: RaiseTech</div>
+                <!-- /.p-footer -->
             </footer>
-            <!-- p-footer -->
+            <!-- l-footer -->
         </div>
         <!-- l-main -->
         <div class="l-aside">
-            <div class="l-aside__inner">
-                <div class="l-aside__button_close">
-                    <div class="c-button_close-sp c-button_sp__line"></div>
+            <div class="p-aside">
+                <div class="p-aside__button_close">
+                    <div class="c-button_close-sp c-button_sp_line"></div>
                 </div>
-                <div class="l-aside__button c-button-menu">
+                <div class="p-aside__button c-button-menu">
                     MENU
                 </div>
                 <nav class="p-nav">
-                    <ul class="c-menu .u-fc_gray">
-                        <li class="c-menu__list">
-                            <a href="" class="c-menu__item u-fs_menu-title u-fw_bold">
+                    <ul class="p-nav__menu .u-fc_gray">
+                        <li class="p-nav__list">
+                            <a href="" class="p-nav__item u-fs_menu-title u-fw_bold">
                                 バーガー
                             </a>
                             <ul class="c-menu-sub">
@@ -277,8 +286,8 @@
                             </ul>
                         </li>
                         <!-- .c-menu__list -->
-                        <li class="c-menu__list">
-                            <a href="" class="c-menu__item u-fs_menu-title u-fw_bold">
+                        <li class="p-nav__list">
+                            <a href="" class="p-nav__item u-fs_menu-title u-fw_bold">
                                 サイド
                             </a>
                             <ul class="c-menu-sub">
@@ -289,8 +298,8 @@
                             </ul>
                         </li>
                         <!-- .c-menu__list -->
-                        <li class="c-menu__list">
-                            <a href="" class="c-menu__item u-fs_menu-title u-fw_bold">
+                        <li class="p-nav__list">
+                            <a href="" class="p-nav__item u-fs_menu-title u-fw_bold">
                                 ドリンク
                             </a>
                             <ul class="c-menu-sub">
@@ -301,13 +310,13 @@
                                 <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">ハンバーガー</a></li>
                             </ul>
                         </li>
-                        <!-- .c-menu__list -->
+                        <!-- .p-nav__list -->
                     </ul>
-                    <!-- .c-menu -->
+                    <!-- .p-nav__menu -->
                 </nav>
                 <!-- .p-nav -->
             </div>
-            <!-- .l-aside__inner -->
+            <!-- .p-aside -->
         </div>
         <!-- l-aside -->
         <div class="p-background-sp-menu"></div>

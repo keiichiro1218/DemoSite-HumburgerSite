@@ -74,7 +74,7 @@
     
 }
 
-.p-pagenation__arrow--left {
+.p-pagenation__arrow_left {
     &::before, &::after {
 
         content: "";
@@ -99,7 +99,7 @@
     }
 }
 
-.p-pagenation__arrow--right {
+.p-pagenation__arrow_right {
     &::before, &::after {
 
         content: "";

@@ -1,7 +1,7 @@
 @use "./foundation/_var-mixin.scss" as var-mixin;
 
-.l-footer {
-    min-height: 150px;
+.p-footer {
+    min-height: 100%;
     background: var-mixin.$brown;
     padding: 16px;
     display: flex;
@@ -15,12 +15,12 @@
     }
 }
 
-.l-footer__menu {
+.p-footer__menu {
     display: flex;
     justify-content: center;
 }
 
-.l-footer__link {
+.p-footer__link {
     color: var-mixin.$white;
     font-size: 18px;
     padding: 0 7px;
@@ -31,7 +31,7 @@
 
 }
 
-.l-footer__Copyright {
+.p-footer__Copyright {
     color: var-mixin.$white;
     
 }

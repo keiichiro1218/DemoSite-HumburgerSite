@@ -1,0 +1,21 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.l-aside {
+    z-index: 10;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    display: none;
+   
+
+    @include var-mixin.pc {
+        width: 25%;
+        display: block;
+        height: auto;
+        position: static;
+
+    }
+    
+}

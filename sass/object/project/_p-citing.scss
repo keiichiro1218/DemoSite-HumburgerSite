@@ -4,11 +4,20 @@
     background: var-mixin.$gray-citing;
     padding: 24px 5%;
     margin-bottom: 30px;
+
+    @include var-mixin.tab {
+        padding: 50px 50px;
+        margin-bottom: 60px;
+    }
     
 }
 
 .p-citing__body {
     text-align: justify;
+
+    @include var-mixin.tab {
+        margin-bottom: 60px;
+    }
     
 }
 

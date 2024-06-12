@@ -1,0 +1,23 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.p-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    @include var-mixin.pc {
+        margin-right: 2%;
+        
+    }
+    
+}
+
+.p-form__body {
+    position: relative;
+
+}
+
+.p-form__input {
+    margin-right: 12px;
+    
+}

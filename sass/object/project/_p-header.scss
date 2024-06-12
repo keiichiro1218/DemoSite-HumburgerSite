@@ -1,7 +1,7 @@
 @use "./foundation/_var-mixin.scss" as var-mixin;
 
-.l-header {
-    height: 215px;
+.p-header {
+    height: 100%;
     padding: 40px 0;
     position: relative;
     background-color: var-mixin.$pink-light;
@@ -15,7 +15,7 @@
     }
 }
 
-.l-header__title {
+.p-header__logo {
     color: var-mixin.$gray;
     font-size: 36px;
     margin-bottom: 36px;
@@ -34,7 +34,7 @@
     
 }
 
-.l-header__menu-button_sp {
+.p-header__menu-button_sp {
     width: fit-content;
     height: 36px;
     position: absolute;
@@ -48,25 +48,9 @@
 
 }
 
-.l-header__menu-button_open {
+.p-header__menu-button_open {
     position: absolute;
     top: 8px;
     right: 8px;
 
-}
-
-.l-header__form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    @include var-mixin.pc {
-        margin-right: 2%;
-    
-    }
-    
-}
-
-.l-header__form-input {
-    margin-right: 12px;
 }

@@ -1,6 +1,6 @@
 @use "./foundation/_var-mixin.scss" as var-mixin;
 
-.c-card {
+.p-card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -20,7 +20,17 @@
     }
 }
 
-.c-card__title {
+.p-card_img-takeout {
+    background-image: url('../img/front-page__burger.jpeg');
+
+}
+
+.p-card_img-eatin {
+    background-image: url('../img/front-page__potato.png');
+
+}
+
+.p-card__title {
     color: var-mixin.$gray-light;
     font-size: 36px;
     font-weight: 700;
@@ -28,33 +38,33 @@
 
 }
 
-.c-card--img-takeout {
+.p-card--img-takeout {
     background-image: url('../img/front-page__burger.jpeg');
 
 }
 
-.c-card--img-eatin {
+.p-card--img-eatin {
     background-image: url('../img/front-page__potato.png');
 
 }
 
-.c-card__contents {
+.p-card__contents {
     
 }
 
-.c-card__content {
+.p-card__content {
     background-color: var-mixin.$white;
     opacity: 0.8;
     padding: 10px 12px;
 
 }
 
-.c-card__content--top {
+.p-card__content--top {
     margin-bottom: 16px;
 
 }
 
-.c-card__content-title {
+.p-card__content-title {
     font-size: 20px;
     font-weight: 700;
     line-height: 1em;

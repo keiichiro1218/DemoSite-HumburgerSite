@@ -1,12 +1,17 @@
 @use "./foundation/_var-mixin.scss" as var-mixin;
 
 .p-img {
-    
+    margin-bottom: 30px;
 }
 
 .p-img__wrapper {
     overflow: hidden;
     margin-bottom: 30px;
+
+    @include var-mixin.tab {
+        margin-bottom: 60px;
+
+    }
 
 }
 
@@ -17,11 +22,28 @@
     object-fit: cover;
     object-position: bottom;
 
+    @include var-mixin.sp {
+        height: 264px;
+    }
+
 }
 
 .p-img__media {
     display: flex;
+    height: 170px;
+    overflow: hidden;
     margin-bottom: 30px;
+
+    @include var-mixin.tab {
+
+        height: 100%;
+        overflow: visible;
+
+       &:nth-child(2) {
+        margin-bottom: 100px;
+       }
+
+    }
 }
 
 .p-img__media-revers {

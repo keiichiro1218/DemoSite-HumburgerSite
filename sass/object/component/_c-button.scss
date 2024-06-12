@@ -1,5 +1,20 @@
 @use "./foundation/_var-mixin.scss" as var-mixin;
 
+.c-button {
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 10px 24px;
+    border-radius: 10px;
+    background-color: var-mixin.$gray-button;
+    border: 1px var-mixin.$gray solid;
+
+    @include var-mixin.tab {
+        padding: 12px 52px;
+
+    }
+}
+
 .c-button_close-sp {
     display: block;
     position: relative;
@@ -16,7 +31,7 @@
     }
 }
 
-.c-button_sp__line {
+.c-button_sp_line {
 
     &::before,&::after {
         content: "";

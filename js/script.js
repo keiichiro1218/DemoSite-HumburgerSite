@@ -1,4 +1,4 @@
-jQuery(".l-header__menu-button_open").on("click", function(){
+jQuery(".p-header__menu-button_open").on("click", function(){
     jQuery(".l-aside").animate({
         right: '0%'
     }, 300);
@@ -8,7 +8,7 @@ jQuery(".l-header__menu-button_open").on("click", function(){
     jQuery(".l-aside, .p-background").addClass("u-open");
 });
 
-jQuery(".l-aside__button_close").on("click", function(){
+jQuery(".p-aside__button_close").on("click", function(){
     jQuery(".l-aside").animate({
         right: '-100%'
     }, 300);

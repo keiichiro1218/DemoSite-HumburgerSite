@@ -15,6 +15,13 @@ $blue-link: #0000EE;
 $pc-wide: 1300px;
 $tab: 1000px;
 $sp: 650px;
+$sp-min: 366px;
+
+@mixin sp {
+    @media screen and (min-width: ($sp-min)) {
+      @content;
+    }
+  }
 
 @mixin tab {
     @media screen and (min-width: ($sp)) {

@@ -15,22 +15,32 @@
     <div class="l-container">
         <div class="l-main">
             <header class="l-header">
-                <h1 class="l-header__title u-fw-bold">Hamburger</h1>
-                <div class="l-header__menu-button_sp">
-                    <div class="l-header__menu-button_open c-button-menu">
-                        Menu
-                    </div>               
-                </div>
-                <form action="" class="l-header__form">
-                    <div class="c-input-form">
-                        <input type="text" class="c-input-text l-header__form-input">
-                        <i class="fa-solid fa-magnifying-glass c-serch-icon"></i>
+                <div class="p-header">
+                    <h1 class="p-header__logo u-fw-bold">Hamburger</h1>
+                    <div class="p-header__menu-button_sp">
+                        <div class="p-header__menu-button_open c-button-menu">
+                            Menu
+                        </div> 
+                        <!-- .p-header__menu-button_open -->
                     </div>
-                    <div class="c-button">検索</div>
-                </form>
+                    <!-- .p-header__menu-button_sp -->
+                    <form action="" class="p-form">
+                        <div class="p-form__body">
+                            <input type="text" class="c-input-text p-form__input">
+                            <i class="fa-solid fa-magnifying-glass c-serch-icon"></i>
+                        </div>
+                        <!-- .p--form__body -->
+                        <div class="c-button">
+                            検索
+                        </div>
+                        <!-- .c-button -->
+                    </form>
+                    <!-- .p-form -->
+                </div>
+                <!-- /.p-header -->
             </header>
-            <!-- p-header -->
-            <div class="p-page-visual p-page-visual__front-page">
+            <!-- .l-header -->
+            <div class="p-page-visual p-page-visual_front-page">
                 <div class="u-title--position c-page-title">
                     ダミーサイト
                 </div>
@@ -38,21 +48,21 @@
             <!-- p-page-visual -->
             <div class="p-front u-inner">
                 <div class="p-front-category__menu">
-                    <div class="c-card c-card--img-takeout p-front__card--top">
-                        <div class="c-card__title u-under-line"> 
+                    <div class="p-card p-card_img-takeout p-front__card--top">
+                        <div class="p-card__title u-under-line"> 
                             Take Out
                         </div>
-                        <div class="c-card__contents">
-                            <div class="c-card__content c-card__content--top">
-                                <p class="c-card__content-title">
+                        <div class="p-card__contents">
+                            <div class="p-card__content p-card__content--top">
+                                <p class="p-card__content-title">
                                     Take Out
                                 </p>
                                 <p class="u-sentence">
                                     当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています
                                 </p>
                             </div>
-                            <div class="c-card__content">
-                                <p class="c-card__content-title">
+                            <div class="p-card__content">
+                                <p class="p-card__content-title">
                                     Take Out
                                 </p>
                                 <p class="u-sentence">
@@ -61,21 +71,21 @@
                             </div>
                         </div>
                     </div>
-                    <div class="c-card c-card--img-eatin">
-                        <div class="c-card__title u-under-line"> 
+                    <div class="p-card p-card_img-eatin">
+                        <div class="p-card__title u-under-line"> 
                             Eat In
                         </div>
-                        <div class="c-card__contents">
-                            <div class="c-card__content c-card__content--top">
-                                <p class="c-card__content-title">
+                        <div class="p-card__contents">
+                            <div class="p-card__content p-card__content--top">
+                                <p class="p-card__content-title">
                                     Eat In
                                 </p>
                                 <p class="u-sentence">
                                     店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです
                                 </p>
                             </div>
-                            <div class="c-card__content">
-                                <p class="c-card__content-title">
+                            <div class="p-card__content">
+                                <p class="p-card__content-title">
                                     Eat In
                                 </p>
                                 <p class="u-sentence">
@@ -100,27 +110,31 @@
                 </div>
             </div>
             <footer class="l-footer">
-                <div class="l-footer__menu">
-                    <a href="" class="l-footer__link">ショップ情報</a>
-                    <a href="" class="l-footer__link">ヒストリー</a>
+                <div class="p-footer">
+                    <div class="p-footer__menu">
+                        <a href="" class="p-footer__link">ショップ情報</a>
+                        <a href="" class="p-footer__link">ヒストリー</a>
+                    </div>
+                    <!-- .p-footer__menu -->
+                    <div class="p-footer__Copyright u-fs_sentence">Copyright: RaiseTech</div>
                 </div>
-                <div class="l-footer__Copyright u-fs_sentence">Copyright: RaiseTech</div>
+                <!-- /.p-footer -->
             </footer>
-            <!-- p-footer -->
+            <!-- l-footer -->
         </div>
         <!-- l-main -->
         <div class="l-aside">
-            <div class="l-aside__inner">
-                <div class="l-aside__button_close">
-                    <div class="c-button_close-sp c-button_sp__line"></div>
+            <div class="p-aside">
+                <div class="p-aside__button_close">
+                    <div class="c-button_close-sp c-button_sp_line"></div>
                 </div>
-                <div class="l-aside__button c-button-menu">
+                <div class="p-aside__button c-button-menu">
                     MENU
                 </div>
                 <nav class="p-nav">
-                    <ul class="c-menu .u-fc_gray">
-                        <li class="c-menu__list">
-                            <a href="" class="c-menu__item u-fs_menu-title u-fw_bold">
+                    <ul class="p-nav__menu .u-fc_gray">
+                        <li class="p-nav__list">
+                            <a href="" class="p-nav__item u-fs_menu-title u-fw_bold">
                                 バーガー
                             </a>
                             <ul class="c-menu-sub">
@@ -134,8 +148,9 @@
                                
                             </ul>
                         </li>
-                        <li class="c-menu__list">
-                            <a href="" class="c-menu__item u-fs_menu-title u-fw_bold">
+                        <!-- .c-menu__list -->
+                        <li class="p-nav__list">
+                            <a href="" class="p-nav__item u-fs_menu-title u-fw_bold">
                                 サイド
                             </a>
                             <ul class="c-menu-sub">
@@ -145,8 +160,9 @@
                                 <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">コーン</a></li>
                             </ul>
                         </li>
-                        <li class="c-menu__list">
-                            <a href="" class="c-menu__item u-fs_menu-title u-fw_bold">
+                        <!-- .c-menu__list -->
+                        <li class="p-nav__list">
+                            <a href="" class="p-nav__item u-fs_menu-title u-fw_bold">
                                 ドリンク
                             </a>
                             <ul class="c-menu-sub">
@@ -157,10 +173,13 @@
                                 <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">ハンバーガー</a></li>
                             </ul>
                         </li>
-                        
+                        <!-- .p-nav__list -->
                     </ul>
+                    <!-- .p-nav__menu -->
                 </nav>
+                <!-- .p-nav -->
             </div>
+            <!-- .p-aside -->
         </div>
         <!-- l-aside -->
         <div class="p-background-sp-menu"></div>

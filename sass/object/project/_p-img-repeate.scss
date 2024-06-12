@@ -1,0 +1,55 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.p-img-repeate {
+
+    @include var-mixin.tab {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+   
+    
+}
+
+.p-img-repeate__img-wrapper {
+    display: block;
+
+    &:not(:last-child){
+        margin-bottom: 20px;
+    }
+
+    @include var-mixin.tab {
+        width: 48%;
+
+        &:nth-child( 2n) {
+            margin-left: 4%;
+        }
+    }
+
+    @include var-mixin.pc {
+        width: 30%;
+
+        &:nth-child(3n -2) {
+            margin-left: 0px;
+        }
+
+        &:not(:nth-child(3n -2)) {
+            margin-left: 3%;
+        }
+    }
+
+}
+
+.p-img-repeate__img {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+
+    @include var-mixin.tab {
+        margin-bottom: 0px;
+
+    }
+
+    
+
+}
