@@ -24,15 +24,11 @@
     display: block;
     object-fit: cover;
     object-position: left;
-    width: 100%;
     height: 100%;
-
-    
 
 }
 
 .p-media__img-wrapper {
-
     @include var-mixin.tab {
         width: 50%;
     }

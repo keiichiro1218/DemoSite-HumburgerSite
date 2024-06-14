@@ -1,7 +1,7 @@
 @use "./foundation/_var-mixin.scss" as var-mixin;
 
 .p-footer {
-    min-height: 100%;
+    height: 100%;
     background: var-mixin.$brown;
     padding: 16px;
     display: flex;
@@ -15,21 +15,35 @@
     }
 }
 
+.p-footer__nav {
+ 
+}
+
 .p-footer__menu {
     display: flex;
     justify-content: center;
-}
 
-.p-footer__link {
-    color: var-mixin.$white;
-    font-size: 18px;
-    padding: 0 7px;
-    line-height: 1em;
+    li {
+        line-height: 1em;
+        color: var-mixin.$white;
+        
         &:nth-child( n + 2) {
             border-left: solid 1px;
-        }
+            }
+            
+        a {
+            display: block;
+            padding: 0 7px;
+            font-size: 18px;
+            color: var-mixin.$white;
 
+           
+                
+        }
+    }
 }
+
+
 
 .p-footer__Copyright {
     color: var-mixin.$white;

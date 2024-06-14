@@ -16,22 +16,25 @@
 }
 
 .p-header__logo {
-    color: var-mixin.$gray;
-    font-size: 36px;
     margin-bottom: 36px;
-    line-height: 48px;
 
     @include var-mixin.pc {
         margin-bottom: 0;
         margin-left: 5%;
 
     }
+}
+
+.p-header__link {
+    color: var-mixin.$gray;
+    font-size: 36px;
+    line-height: 48px;
 
     @include var-mixin.pc-wide {
         font-size: 56px;
 
     }
-    
+
 }
 
 .p-header__menu-button_sp {

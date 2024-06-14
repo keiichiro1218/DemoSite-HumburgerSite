@@ -1,0 +1,36 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.p-nav__menu {
+    display: block;
+
+    li {
+        margin-bottom: 60px;
+
+        a {
+            display: block;
+            margin-bottom: 40px;
+            color: var-mixin.$gray;
+            font-weight: 700;
+            font-size: 24px;
+
+        }
+    }
+}
+
+.p-nav__menu-sub {
+    padding-left: 22px;
+
+    li {
+        margin-bottom: 24px;
+
+
+        a{
+            font-size: 20px;
+            color: var-mixin.$gray;
+            font-weight: 400;
+
+        }
+    }
+    
+}
+

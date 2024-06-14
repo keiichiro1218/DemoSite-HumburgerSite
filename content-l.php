@@ -1,56 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>HamburgerSite</title>
-    <script src="https://kit.fontawesome.com/73db00d111.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Roboto:ital,wght@0,100;0,
-        300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="l-container">
-        <div class="l-main">
-            <header class="l-header">
-                <div class="p-header">
-                    <h1 class="p-header__logo u-fw-bold">Hamburger</h1>
-                    <div class="p-header__menu-button_sp">
-                        <div class="p-header__menu-button_open c-button-menu">
-                            Menu
-                        </div> 
-                        <!-- .p-header__menu-button_open -->
-                    </div>
-                    <!-- .p-header__menu-button_sp -->
-                    <form action="" class="p-form">
-                        <div class="p-form__body">
-                            <input type="text" class="c-input-text p-form__input">
-                            <i class="fa-solid fa-magnifying-glass c-serch-icon"></i>
-                        </div>
-                        <!-- .p--form__body -->
-                        <div class="c-button">
-                            検索
-                        </div>
-                        <!-- .c-button -->
-                    </form>
-                    <!-- .p-form -->
-                </div>
-                <!-- /.p-header -->
-            </header>
-            <!-- .l-header -->
-            <div class="p-page-visual p-page-visual_single">
-                <div class="p-page-visual__title u-title--position">
-                    <div class="c-page-title">
-                        h1 チーズバーガー
-                    </div>
-                    <!-- .c-page-title -->
-                </div>
-                <!-- .p-page-visual__title -->
-            </div>
-            <!-- p-page-visual -->
-            <div class="l-content">
+<div class="l-content">
                 <div class="p-article">
                     <div class="p-article__title">
                         <h2 class="p-article__heading-h2">
@@ -121,12 +69,12 @@
                 <!-- /.p-citing -->
                 <div class="p-img">
                     <div class="p-img__wrapper">
-                        <img src="../img/hamburger.png" alt="" class="p-img__content">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hamburger.png" alt="" class="p-img__content">
                     </div>
                     <!-- .p-img__wrapper -->
                     <div class="p-img__media">
                         <div class="p-img__media_img-wrapper">
-                            <img src="../img/hamburger.png" alt="" class="p-img__media_img">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hamburger.png" alt="" class="p-img__media_img">
                         </div>
                         <!-- .p-img__media_img-wrapper -->
                         <div class="p-img__media-text-right">
@@ -137,7 +85,7 @@
                     <!-- .p-img__media -->
                     <div class="p-img__media p-img__media-revers">
                         <div class="p-img__media_img-wrapper">
-                            <img src="../img/hamburger.png" alt="" class="p-img__media_img">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hamburger.png" alt="" class="p-img__media_img">
                         </div>
                         <!-- .p-img__media_img-wrapper -->
                         <div class="p-img__media-text p-img__media-text-left">
@@ -147,46 +95,46 @@
                     </div>
                     <!-- .p-img__media -->
                     <div class="p-img__image">
-                        <img src="../img/hamburger.png" alt="">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hamburger.png" alt="">
                     </div>
                     <!-- /.p-img__image -->
                 </div>
                 <!-- .p-img -->
                 <div class="p-img-repeate">
                     <div class="p-img-repeate__img-wrapper">
-                        <img src="../img/hamburger.png" alt="" class="p-img-repeate__img">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hamburger.png" alt="" class="p-img-repeate__img">
                     </div>
                     <!-- /.p-img-repeate__img-wrapper -->
                     <div class="p-img-repeate__img-wrapper">
-                        <img src="../img/hamburger.png" alt="" class="p-img-repeate__img">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hamburger.png" alt="" class="p-img-repeate__img">
                     </div>
                     <!-- /.p-img-repeate__img-wrapper -->
                     <div class="p-img-repeate__img-wrapper">
-                        <img src="../img/hamburger.png" alt="" class="p-img-repeate__img">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hamburger.png" alt="" class="p-img-repeate__img">
                     </div>
                     <!-- /.p-img-repeate__img-wrapper -->
                     <div class="p-img-repeate__img-wrapper">
-                        <img src="../img/hamburger.png" alt="" class="p-img-repeate__img">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hamburger.png" alt="" class="p-img-repeate__img">
                     </div>
                     <!-- /.p-img-repeate__img-wrapper -->
                     <div class="p-img-repeate__img-wrapper">
-                        <img src="../img/hamburger.png" alt="" class="p-img-repeate__img">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hamburger.png" alt="" class="p-img-repeate__img">
                     </div>
                     <!-- /.p-img-repeate__img-wrapper -->
                     <div class="p-img-repeate__img-wrapper">
-                        <img src="../img/hamburger.png" alt="" class="p-img-repeate__img">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hamburger.png" alt="" class="p-img-repeate__img">
                     </div>
                     <!-- /.p-img-repeate__img-wrapper -->
                     <div class="p-img-repeate__img-wrapper">
-                        <img src="../img/hamburger.png" alt="" class="p-img-repeate__img">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hamburger.png" alt="" class="p-img-repeate__img">
                     </div>
                     <!-- /.p-img-repeate__img-wrapper -->
                     <div class="p-img-repeate__img-wrapper">
-                        <img src="../img/hamburger.png" alt="" class="p-img-repeate__img">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hamburger.png" alt="" class="p-img-repeate__img">
                     </div>
                     <!-- /.p-img-repeate__img-wrapper -->
                     <div class="p-img-repeate__img-wrapper">
-                        <img src="../img/hamburger.png" alt="" class="p-img-repeate__img">
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hamburger.png" alt="" class="p-img-repeate__img">
                     </div>
                     <!-- /.p-img-repeate__img-wrapper -->
                 </div>
@@ -319,86 +267,5 @@
 
                 </div>
                 <!-- /.p-button -->
-
             </div>
             <!-- .l-content -->
-            <footer class="l-footer">
-                <div class="p-footer">
-                    <div class="p-footer__menu">
-                        <a href="" class="p-footer__link">ショップ情報</a>
-                        <a href="" class="p-footer__link">ヒストリー</a>
-                    </div>
-                    <!-- .p-footer__menu -->
-                    <div class="p-footer__Copyright u-fs_sentence">Copyright: RaiseTech</div>
-                </div>
-                <!-- /.p-footer -->
-            </footer>
-            <!-- l-footer -->
-        </div>
-        <!-- l-main -->
-        <div class="l-aside">
-            <div class="p-aside">
-                <div class="p-aside__button_close">
-                    <div class="c-button_close-sp c-button_sp_line"></div>
-                </div>
-                <div class="p-aside__button c-button-menu">
-                    MENU
-                </div>
-                <nav class="p-nav">
-                    <ul class="p-nav__menu .u-fc_gray">
-                        <li class="p-nav__list">
-                            <a href="" class="p-nav__item u-fs_menu-title u-fw_bold">
-                                バーガー
-                            </a>
-                            <ul class="c-menu-sub">
-                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">ハンバーガー</a></li>
-                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">チーズバーガー</a></li>
-                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">テリヤキバーガー</a></li>
-                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">アボカドバーガー</a></li>
-                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">フィッシュバーガー</a></li>
-                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">ベーコンバーガー</a></li>
-                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">チキンバーガー</a></li>
-                               
-                            </ul>
-                        </li>
-                        <!-- .c-menu__list -->
-                        <li class="p-nav__list">
-                            <a href="" class="p-nav__item u-fs_menu-title u-fw_bold">
-                                サイド
-                            </a>
-                            <ul class="c-menu-sub">
-                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">ポテト</a></li>
-                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">サラダ</a></li>
-                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">ナゲット</a></li>
-                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">コーン</a></li>
-                            </ul>
-                        </li>
-                        <!-- .c-menu__list -->
-                        <li class="p-nav__list">
-                            <a href="" class="p-nav__item u-fs_menu-title u-fw_bold">
-                                ドリンク
-                            </a>
-                            <ul class="c-menu-sub">
-                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">ハンバーガー</a></li>
-                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">チーズバーガー</a></li>
-                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">テリヤキバーガー</a></li>
-                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">ハンバーガー</a></li>
-                                <li class="c-menu-sub__list"><a href="" class="c-menu-sub__item">ハンバーガー</a></li>
-                            </ul>
-                        </li>
-                        <!-- .p-nav__list -->
-                    </ul>
-                    <!-- .p-nav__menu -->
-                </nav>
-                <!-- .p-nav -->
-            </div>
-            <!-- .p-aside -->
-        </div>
-        <!-- l-aside -->
-        <div class="p-background-sp-menu"></div>
-    </div>
-    <!-- l-container -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./js/script.js"></script>
-</body>
-</html>
