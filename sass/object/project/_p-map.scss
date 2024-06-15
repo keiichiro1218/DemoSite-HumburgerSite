@@ -4,11 +4,13 @@
     width: 100%;
     position: relative;
     height: 690px;
+   
 
     @include var-mixin.tab {
         height: 416px;
 
     }
+
     
     &::before {
         content: "";
@@ -31,6 +33,13 @@
         }
 
     }
+
+    &::after {
+        content: "";
+        display: block;
+        padding-top: calc(((1 / 1)* 100%));
+    }
+
 }
 
 .p-map iframe {

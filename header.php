@@ -28,18 +28,7 @@
                         <!-- .p-header__menu-button_open -->
                     </div>
                     <!-- .p-header__menu-button_sp -->
-                    <form action="" class="p-form">
-                        <div class="p-form__body">
-                            <input type="text" class="c-input-text p-form__input">
-                            <i class="fa-solid fa-magnifying-glass c-serch-icon"></i>
-                        </div>
-                        <!-- .p--form__body -->
-                        <div class="c-button">
-                            検索
-                        </div>
-                        <!-- .c-button -->
-                    </form>
-                    <!-- .p-form -->
+                    <?php get_search_form()?>
                 </div>
                 <!-- /.p-header -->
             </header>

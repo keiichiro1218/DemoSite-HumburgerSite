@@ -1,0 +1,7 @@
+@use "./foundation/_var-mixin.scss" as var-mixin;
+
+.c-search-result {
+    color: var-mixin.$white;
+    font-size: 24px;
+    font-weight: 700;
+}
