@@ -72,28 +72,8 @@
                      ?>
                 </div>
                 <!-- /.p-media__wrapper -->
-                <div class="p-pagenation">
-                    
-                        <?php
-                        $args = array(
-                            // 'mid_size' => 2,
-                            // 'prev_next' => true,
-                            // 'prev_text' => '&lt&lt',
-                            // 'next_text' => '&gt&gt',
-                            // 'screen_reader_text' => ' ',
-                            'mid_size' => 1, //現在のページの左右にそれぞれ表示するページ番号の数
-                            'prev_text' => '<i class="fas fa-angle-double-left"></i>',
-                            'next_text' => '<i class="fas fa-angle-double-right"></i>',
-                            'screen_reader_text' => ' ',
-                        );
-                        the_posts_pagination($args);
-                        ?>
-                        
-                  
-                    
+                <?php get_template_part('content-pagenation')?>
                 </div>
-                <!-- /.p-pagenation -->
-            </div>
-            <!-- .p-archive -->
+                <!-- .p-archive -->
        <?php get_footer(); ?>
        <?php get_sidebar();?>

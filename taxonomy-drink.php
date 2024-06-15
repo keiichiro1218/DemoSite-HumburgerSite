@@ -1,12 +1,10 @@
 <?php get_header()?>
             <div class="p-page-visual p-page-visual_archive">
                 <div class="p-page-visual__title u-title--position">
-                    <div class="c-page-title">
-                        Menu:
-                    </div>
-                    <!-- .c-page-title -->
-                    <div class="c-page-title__menu  u-fs-sentence">
-                        チーズバーガー
+                    <div class="c-page-title  u-fs-sentence">
+                        <?php
+                            single_cat_title();
+                        ?>
                     </div>
                     <!-- .c-page-title__menu -->
                 </div>
@@ -74,74 +72,7 @@
                      ?>
                 </div>
                 <!-- /.p-media__wrapper -->
-                <div class="p-pagenation">
-                    <div class="p-pnagenation__page-num">
-                        page 1/10
-                    </div>
-                    <!-- /.p-pnagenation__page-num -->
-                    <div class="p-pagenation__btn-wrapper">
-                        <div class="p-pagenation__arrow p-pagenation__arrow_left">
-
-                        </div>
-                        <!-- /.p-pagenation__arrow -->
-                        <div class="p-pagenation__prev">
-                            前へ
-                        </div>
-                        <!-- .p-pagenation__prev -->
-                    </div>
-                    <!-- /.p-pagenation__prev-wrapper -->
-                    <div class="p-pagenation__pages">
-                        <div class="p-pagenation__page ">
-                            1
-                        </div>
-                        <!-- /.p-pagenatinon__page -->
-                        <div class="p-pagenation__page">
-                            2
-                        </div>
-                        <!-- /.p-pagenatinon__page -->
-                        <div class="p-pagenation__page">
-                            3
-                        </div>
-                        <!-- /.p-pagenatinon__page -->
-                        <div class="p-pagenation__page">
-                            4
-                        </div>
-                        <!-- /.p-pagenatinon__page -->
-                        <div class="p-pagenation__page">
-                            5
-                        </div>
-                        <!-- /.p-pagenatinon__page -->
-                        <div class="p-pagenation__page">
-                            6
-                        </div>
-                        <!-- /.p-pagenatinon__page -->
-                        <div class="p-pagenation__page">
-                            7
-                        </div>
-                        <!-- /.p-pagenatinon__page -->
-                        <div class="p-pagenation__page">
-                            8
-                        </div>
-                        <!-- /.p-pagenatinon__page -->
-                        <div class="p-pagenation__page">
-                            9
-                        </div>
-                        <!-- /.p-pagenatinon__page -->
-
-                    </div>
-                    <!-- /.p-pagenation__pages -->
-                    <div class="p-pagenation__btn-wrapper">
-                        <div class="p-pagenation__next">
-                            次へ
-                        </div>
-                        <!-- /.p-pagenation__next -->
-                        <div class="p-pagenation__arrow p-pagenation__arrow_right">
-
-                        </div>
-                        <!-- /.p-pagenation__arrow -->
-                    </div>
-                </div>
-                <!-- /.p-pagenation -->
+                <?php get_template_part('content-pagenation')?>
             </div>
             <!-- .p-archive -->
        <?php get_footer(); ?>

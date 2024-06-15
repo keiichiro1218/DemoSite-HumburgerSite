@@ -3,9 +3,14 @@
 .p-aside {
     background-color: var-mixin.$gray-thin;
     height: 100%;
+    width: 80%;
     position: relative;
     padding-top: 180px;
     padding-left: 15%;
+
+    @include var-mixin.tab {
+        width: 100%;
+    }
 
     @include var-mixin.pc {
         padding-top: 86px;

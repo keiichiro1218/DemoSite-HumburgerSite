@@ -1,10 +1,12 @@
 @use "./foundation/_var-mixin.scss" as var-mixin;
 
 .l-main {
+    padding-bottom: 150px;
     
 
     @include var-mixin.pc {
         width: 75%;
+        position: relative;
 
     }
 }

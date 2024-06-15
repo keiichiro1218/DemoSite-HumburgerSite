@@ -2,12 +2,12 @@
 
 
 .p-background-sp-menu {
-    position: absolute;
-    top: 0;
-    left: -100%;
+    // position: absolute;
+    // top: 0;
+    // left: -100%;
     background-color: var-mixin.$black;
     opacity: 0.5;
     width: 20%;
-    height: 100%;
+    height: auto;
 
 }

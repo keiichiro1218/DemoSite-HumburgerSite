@@ -289,11 +289,10 @@ html {
 
 .l-aside {
   z-index: 10;
-  width: 80%;
-  height: 100%;
+  width: 100%;
+  height: auto;
   position: absolute;
   top: 0;
-  right: -100%;
   display: none;
 }
 @media screen and (min-width: 1000px) {
@@ -319,17 +318,29 @@ html {
 }
 
 .l-footer {
+  width: 100%;
   min-height: 150px;
   height: 1px;
+  position: absolute;
+  bottom: 0px;
+}
+@media screen and (min-width: 1000px) {
+  .l-footer {
+    width: 100%;
+  }
 }
 
 .l-header {
   height: 215px;
 }
 
+.l-main {
+  padding-bottom: 150px;
+}
 @media screen and (min-width: 1000px) {
   .l-main {
     width: 75%;
+    position: relative;
   }
 }
 
@@ -530,9 +541,15 @@ html {
 .p-aside {
   background-color: #F2EDE9;
   height: 100%;
+  width: 80%;
   position: relative;
   padding-top: 180px;
   padding-left: 15%;
+}
+@media screen and (min-width: 650px) {
+  .p-aside {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 1000px) {
   .p-aside {
@@ -563,13 +580,10 @@ html {
 }
 
 .p-background-sp-menu {
-  position: absolute;
-  top: 0;
-  left: -100%;
   background-color: #000000;
   opacity: 0.5;
   width: 20%;
-  height: 100%;
+  height: auto;
 }
 
 .p-button-area {
@@ -1191,59 +1205,24 @@ html {
   }
 }
 
-.p-pnagenation__page-num {
-  display: none;
-  font-size: 12px;
-  font-weight: bold;
-  margin-right: 12px;
-}
-@media screen and (min-width: 650px) {
-  .p-pnagenation__page-num {
-    display: block;
-  }
-}
-
-.p-pagenation__btn-wrapper {
-  display: flex;
-}
-
-.p-pagenation__prev {
-  margin-left: 10px;
-}
-@media screen and (min-width: 650px) {
-  .p-pagenation__prev {
-    display: none;
-  }
-}
-
-.p-pagenation__next {
-  margin-right: 10px;
-}
-@media screen and (min-width: 650px) {
-  .p-pagenation__next {
-    display: none;
-  }
-}
-
-.p-pagenation__pages {
-  display: none;
-  margin-left: 12px;
-  margin-right: 12px;
-}
-@media screen and (min-width: 650px) {
-  .p-pagenation__pages {
-    display: flex;
-  }
+.p-pagenation {
+  display: block;
 }
 
 .nav-links {
   display: flex;
-  justify-content: space-between;
+}
+@media screen and (min-width: 650px) {
+  .nav-links {
+    position: static;
+    justify-content: center;
+  }
 }
 
 .page-numbers {
   display: none;
   padding: 6px 12px;
+  color: #000000;
   border: 1px solid #3C2A10;
 }
 @media screen and (min-width: 650px) {
@@ -1251,15 +1230,33 @@ html {
     display: inline-block;
   }
   .page-numbers:nth-child(n+2) {
-    margin-left: 12px;
+    margin-left: 20px;
   }
 }
 
+.fa-angle-double-left {
+  margin-right: 16px;
+}
+
+.fa-angle-double-right {
+  margin-left: 16px;
+}
+
 .next, .prev {
+  font-size: 20px;
   border: none;
   display: block;
 }
 
+.next {
+  margin-left: auto;
+}
+@media screen and (min-width: 650px) {
+  .next {
+    position: static;
+    right: inherit;
+  }
+}
 .next::before {
   content: "次へ";
 }
@@ -1281,53 +1278,6 @@ html {
 .current {
   background-color: #3C2A10;
   color: #FFFFFF;
-}
-
-.p-pagenation__arrow {
-  position: relative;
-  width: 20px;
-  height: 20px;
-}
-
-.p-pagenation__arrow_left::before, .p-pagenation__arrow_left::after {
-  content: "";
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  margin: 0 10px;
-  border-left: 1px solid #000;
-  border-bottom: 1px solid #000;
-  transform: rotate(45deg) translateY(-50%);
-  position: absolute;
-  top: 50%;
-  position: relative;
-  width: 20px;
-  height: 20px;
-}
-.p-pagenation__arrow_left::before {
-  left: -10px;
-}
-.p-pagenation__arrow_left::after {
-  left: 0px;
-}
-
-.p-pagenation__arrow_right::before, .p-pagenation__arrow_right::after {
-  content: "";
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  margin: 0 10px;
-  border-right: 1px solid #000;
-  border-top: 1px solid #000;
-  transform: rotate(45deg) translateY(-50%);
-  position: absolute;
-  top: 50%;
-}
-.p-pagenation__arrow_right::before {
-  right: -2px;
-}
-.p-pagenation__arrow_right::after {
-  right: 6px;
 }
 
 .p-table {
@@ -1395,7 +1345,7 @@ html {
 }
 
 .u-open {
-  display: block;
+  display: flex;
 }
 
 .u-sentence {
@@ -1407,6 +1357,10 @@ html {
   top: 53%;
   left: 6%;
   transform: translateY(-50%);
+}
+
+.u-display-none {
+  display: none;
 }
 
 .u-under-line::after {

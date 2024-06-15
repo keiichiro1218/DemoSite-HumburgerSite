@@ -1,38 +1,14 @@
 @use "./foundation/_var-mixin.scss" as var-mixin;
 
 .l-footer {
+    width: 100%;
     min-height: 150px;
     height: 1px;
-    // background: var-mixin.$brown;
-    // padding: 16px;
-    // display: flex;
-    // align-items: center;
-    // flex-direction: column;
-    // justify-content: space-between;
+    position: absolute;
+    bottom: 0px;
 
-    // @include var-mixin.tab {
-    //     font-size: 26px;
-    //     padding: 30px;
-    // }
+    @include var-mixin.pc {
+        width: 100%;
+    }
+
 }
-
-// .l-footer__menu {
-//     display: flex;
-//     justify-content: center;
-// }
-
-// .l-footer__link {
-//     color: var-mixin.$white;
-//     font-size: 18px;
-//     padding: 0 7px;
-//     line-height: 1em;
-//         &:nth-child( n + 2) {
-//             border-left: solid 1px;
-//         }
-
-// }
-
-// .l-footer__Copyright {
-//     color: var-mixin.$white;
-    
-// }

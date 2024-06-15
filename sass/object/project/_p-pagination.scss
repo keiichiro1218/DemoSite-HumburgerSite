@@ -1,58 +1,8 @@
 @use "./foundation/_var-mixin.scss" as var-mixin;
 
 .p-pagenation {
-    // display: flex;
-    // align-items: center;
-    // justify-content: space-between;
-
-    // @include var-mixin.tab {
-    //     justify-content: center;
-    
-    // }
-}
-
-.p-pnagenation__page-num {
-    display: none;
-    font-size: 12px;
-    font-weight: bold;
-    margin-right: 12px;
-
-    @include var-mixin.tab {
-        display: block;
-     }
-}
-
-.p-pagenation__btn-wrapper {
-    display: flex;
-    
-}
-
-.p-pagenation__prev {
-    margin-left: 10px;
-
-    @include var-mixin.tab {
-        display: none;
-    }
-    
-}
-
-.p-pagenation__next {
-    margin-right: 10px;
-
-    @include var-mixin.tab {
-        display: none;
-    }
-    
-}
-
-.p-pagenation__pages {
-    display: none;
-    margin-left: 12px;
-    margin-right: 12px;
-
-    @include var-mixin.tab {
-        display: flex;
-     }
+    display: block;
+   
 }
 
 .pagination {
@@ -60,31 +10,50 @@
 
 .nav-links {
     display: flex;
-    justify-content: space-between;
+
+    @include var-mixin.tab {
+        position: static;
+        justify-content: center;
+    }
 
 }
 
-// .p-pagenation__page {
 .page-numbers {
     display: none;
     padding: 6px 12px;
+    color: var-mixin.$black;
     border: 1px solid var-mixin.$brown;
 
     @include var-mixin.tab {
         display: inline-block;
         &:nth-child(n + 2){
-            margin-left: 12px;
+            margin-left: 20px;
         }
     }
+}
 
+.fa-angle-double-left {
+    margin-right: 16px;
+}
+
+.fa-angle-double-right {
+    margin-left: 16px;
 }
 
 .next, .prev {
- border: none;
- display: block;
+    font-size: 20px;
+    border: none;
+    display: block;
 }
 
 .next {
+    margin-left: auto;
+
+    @include var-mixin.tab {
+        position: static;
+        right: inherit;
+    }
+
     &::before {
         content:"次へ";
 
@@ -108,78 +77,3 @@
     background-color: var-mixin.$brown;
     color: var-mixin.$white;
 }
-
-// .next {
-//     margin-right: 10px;
-
-//     @include var-mixin.tab {
-//         display: none;
-//     }
-    
-// }
-
-.p-pagenation__arrow {
-    position: relative;
-    width: 20px;
-    height: 20px;
-    
-}
-
-.p-pagenation__arrow_left {
-// .prev {
-    &::before, &::after {
-
-        content: "";
-        display: inline-block;
-        width: 12px;
-        height: 12px;
-        margin: 0 10px;
-        border-left: 1px solid #000;
-        border-bottom: 1px solid #000;
-        transform: rotate(45deg) translateY(-50%);
-        position: absolute;
-        top: 50%;
-
-        position: relative;
-        width: 20px;
-        height: 20px;
-          
-    }
-
-    &::before {
-        left: -10px;
-    }
-
-    &::after {
-        left: 0px;
-    }
-}
-
-.p-pagenation__arrow_right {
-    &::before, &::after {
-
-        content: "";
-            display: inline-block;
-            width: 12px;
-            height: 12px;
-            margin: 0 10px;
-            border-right: 1px solid #000;
-            border-top: 1px solid #000;
-            transform: rotate(45deg) translateY(-50%);
-            position: absolute;
-            top: 50%;
-          
-    }
-
-    &::before {
-        right: -2px;
-    }
-
-    &::after {
-        right: 6px;
-    }
-}
-
-
-
-
