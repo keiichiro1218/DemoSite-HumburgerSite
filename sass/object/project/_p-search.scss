@@ -6,21 +6,21 @@
 }
 
 .p-search__result {
-    font-size: 12px;
+    font-size: 0.75rem;
     height: 100vw;
 
     @include var-mixin.tab {
-        font-size: 24px;
+        font-size: 1.5rem;
     
     }
 
     a {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: bold;
         text-decoration:underline;
 
         @include var-mixin.tab {
-            font-size: 32px;
+            font-size: 2rem;
         
         }
     }

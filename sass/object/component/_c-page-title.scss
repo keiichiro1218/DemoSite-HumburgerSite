@@ -2,14 +2,14 @@
 
 .c-page-title {
   color: var-mixin.$white;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 700;
     
 }
 
 .c-page-title__menu {
   color: var-mixin.$white;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
 
   @include var-mixin.tab {

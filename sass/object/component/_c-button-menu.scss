@@ -2,14 +2,14 @@
 
 .c-button-menu {
     color: var-mixin.$gray;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 
     @include var-mixin.tab {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     @include var-mixin.pc-wide {
-        font-size: 36px;
+        font-size: 2.25rem;
     }
 }

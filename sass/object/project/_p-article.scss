@@ -17,7 +17,7 @@
 }
 
 .p-article__heading-h2 {
-    font-size: 28px;
+    font-size: 1.75rem;
 
 }
 
@@ -31,7 +31,7 @@
 }
 
 .p-article__heading-h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
 
     @include var-mixin.tab {
         margin-bottom: 56px;
@@ -39,7 +39,7 @@
 
 }
 .p-article__heading-h4 {
-    font-size: 20px;
+    font-size: 1.25rem;
 
     @include var-mixin.tab {
         margin-bottom:56px;
@@ -47,7 +47,7 @@
 
 }
 .p-article__heading-h5 {
-    font-size: 20px;
+    font-size: 1.25rem;
 
     @include var-mixin.tab {
         margin-bottom: 56px;
@@ -55,7 +55,7 @@
 
 }
 .p-article__heading-h6 {
-    font-size: 20px;
+    font-size: 1.25rem;
     
     @include var-mixin.tab {
         margin-bottom: 56px;
