@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-            <div class="p-page-visual p-page-visual_single">
+            <div class="p-page-visual p-page-visual_page">
                 <div class="p-page-visual__title u-title--position">
                     <div class="c-page-title">
                         <?php the_title(); ?>

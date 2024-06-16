@@ -2,6 +2,7 @@
 
 .p-img {
     margin-bottom: 30px;
+
 }
 
 .p-img__wrapper {
@@ -12,7 +13,6 @@
         margin-bottom: 60px;
 
     }
-
 }
 
 .p-img__content {
@@ -25,7 +25,6 @@
     @include var-mixin.sp {
         height: 264px;
     }
-
 }
 
 .p-img__media {
@@ -48,24 +47,29 @@
 
 .p-img__media-revers {
     flex-direction: row-reverse;
+
 }
 
 .p-img__media_img-wrapper {
     width: 40%;
+
 }
 
 .p-img__media_img {
     width: 100%;
+
 }
 
 .p-img__media-text-right {
     width: 57%;
     margin-left: 3%;
+
 }
 
 .p-img__media-text-left {
     width: 57%;
     margin-right: 3%;
+
 }
 
 .p-img__image {
@@ -77,5 +81,4 @@
         display: block;
         width: 100%;
     }
-
 }

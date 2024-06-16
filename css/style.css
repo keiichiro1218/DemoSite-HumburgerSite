@@ -382,12 +382,13 @@ html {
 }
 
 .c-button {
+  display: inline-block;
   font-size: 1rem;
   font-weight: 700;
-  display: inline-block;
+  color: #707070;
+  background-color: #F2EDE9;
   padding: 10px 24px;
   border-radius: 10px;
-  background-color: #F2EDE9;
   border: 1px #707070 solid;
 }
 @media screen and (min-width: 650px) {
@@ -440,6 +441,11 @@ html {
   color: #FFFFFF;
   font-size: 2.25rem;
   font-weight: 700;
+}
+@media screen and (min-width: 1000px) {
+  .c-page-title {
+    font-size: 2.75rem;
+  }
 }
 
 .c-page-title__menu {
@@ -550,12 +556,13 @@ html {
   height: 100%;
   width: 80%;
   position: relative;
-  padding-top: 180px;
+  padding-top: 90px;
   padding-left: 15%;
 }
 @media screen and (min-width: 650px) {
   .p-aside {
     width: 100%;
+    padding-top: 180px;
   }
 }
 @media screen and (min-width: 1000px) {

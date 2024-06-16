@@ -1,12 +1,13 @@
 @use "./foundation/_var-mixin.scss" as var-mixin;
 
 .c-button {
+    display: inline-block;
     font-size: 1rem;
     font-weight: 700;
-    display: inline-block;
+    color: var-mixin.$gray;
+    background-color: var-mixin.$gray-button;
     padding: 10px 24px;
     border-radius: 10px;
-    background-color: var-mixin.$gray-button;
     border: 1px var-mixin.$gray solid;
 
     @include var-mixin.tab {
@@ -18,7 +19,6 @@
 .c-button_close-sp {
     display: block;
     position: relative;
-    
 
     &::before {
         transform: rotate(45deg);
@@ -41,6 +41,7 @@
         right: 0;
         height: 6px;
         background-color: var-mixin.$gray;
+
     }
 }
 

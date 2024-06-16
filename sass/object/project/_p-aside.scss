@@ -5,11 +5,12 @@
     height: 100%;
     width: 80%;
     position: relative;
-    padding-top: 180px;
+    padding-top: 90px;
     padding-left: 15%;
 
     @include var-mixin.tab {
         width: 100%;
+        padding-top: 180px;
     }
 
     @include var-mixin.pc {
@@ -36,6 +37,6 @@
 
     @include var-mixin.pc {
         display: none;
+
     }
-    
 }

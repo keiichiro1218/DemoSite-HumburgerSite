@@ -29,11 +29,10 @@
 }
 
 .p-media__img-wrapper {
+
     @include var-mixin.tab {
         width: 50%;
     }
-    
-
 }
 
 .p-media__body {
@@ -59,20 +58,22 @@
 .p-media__menu {
     font-size: 1.25rem;
     margin-bottom: 20px;
+
 }
 
 .p-media__heading {
     font-size: 1rem;
     margin-bottom: 8px;
+
 }
 
 .p-media__text {
     margin-bottom: 40px;
+
 }
 
 .p-media__button {
     text-align: center;
     
-
 }
 

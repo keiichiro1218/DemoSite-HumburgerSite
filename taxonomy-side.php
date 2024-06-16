@@ -31,10 +31,9 @@
 
                     <div class="p-media">
                         <figure class="p-media__img-wrapper">
-                            <!-- <img src="../img/media-img.png" alt="" class="p-media__img"> -->
-                            <?php if(has_post_thumbnail()): // アイキャッチ画像が設定されてれば表示 ?>
+                            <?php if(has_post_thumbnail()): ?>
                                 <?php the_post_thumbnail('medium',['class' => 'p-media__img']); ?>
-                                <?php else : // なければnoimage画像をデフォルトで表示 ?>
+                                <?php else : ?>
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/noimg.png" alt="">
                             <?php endif; ?>
                         </figure>

@@ -4,7 +4,11 @@
   color: var-mixin.$white;
   font-size: 2.25rem;
   font-weight: 700;
-    
+
+  @include var-mixin.pc {
+    font-size: 2.75rem;
+
+  }
 }
 
 .c-page-title__menu {
@@ -12,8 +16,7 @@
   font-size: 1.25rem;
   font-weight: 700;
 
-  @include var-mixin.tab {
-    margin-left: 20px;
-}
-    
+    @include var-mixin.tab {
+      margin-left: 20px;
+    }
 }

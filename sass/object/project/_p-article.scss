@@ -36,29 +36,28 @@
     @include var-mixin.tab {
         margin-bottom: 56px;
     }
-
 }
+
 .p-article__heading-h4 {
     font-size: 1.25rem;
 
     @include var-mixin.tab {
         margin-bottom:56px;
     }
-
 }
+
 .p-article__heading-h5 {
     font-size: 1.25rem;
 
     @include var-mixin.tab {
         margin-bottom: 56px;
     }
-
 }
+
 .p-article__heading-h6 {
     font-size: 1.25rem;
     
     @include var-mixin.tab {
         margin-bottom: 56px;
     }
-
 }

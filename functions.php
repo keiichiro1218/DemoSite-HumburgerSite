@@ -3,8 +3,8 @@
 function my_enqueue_scripts() {
     $uri = esc_url( get_template_directory_uri() );
     wp_enqueue_script('jquery');
-    wp_enqueue_script('js', $uri . '/js/script.js', array() );
-    wp_enqueue_style('my_styles', $uri . '/css/style.css', [] );
+    wp_enqueue_script('js', $uri . '/js/script.js', array(), gmdate( 'Ymd/Hi', filemtime( get_theme_file_path( '/js/script.js' ) ) ) );
+    wp_enqueue_style('my_styles', $uri . '/css/style.css', [] ,gmdate( 'Ymd/Hi', filemtime( get_theme_file_path( '/css/style.css' ) ) ) );
 
 }
 

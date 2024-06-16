@@ -5,7 +5,6 @@
     position: relative;
     height: 690px;
    
-
     @include var-mixin.tab {
         height: 416px;
 
@@ -65,6 +64,7 @@
 
 .p-map__title {
     margin-bottom: 20px;
+    
 }
 
 .p-map__sentence {

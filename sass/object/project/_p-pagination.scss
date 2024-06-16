@@ -6,6 +6,7 @@
 }
 
 .pagination {
+
 }
 
 .nav-links {
@@ -15,7 +16,6 @@
         position: static;
         justify-content: center;
     }
-
 }
 
 .page-numbers {
@@ -34,16 +34,19 @@
 
 .fa-angle-double-left {
     margin-right: 16px;
+
 }
 
 .fa-angle-double-right {
     margin-left: 16px;
+
 }
 
 .next, .prev {
     font-size: 1.25rem;
     border: none;
     display: block;
+    
 }
 
 .next {
