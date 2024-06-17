@@ -1,14 +1,14 @@
 @use "./foundation/_var-mixin.scss" as var-mixin;
 
 .p-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-position: center;
-    background-size: cover;
     width: 100%;
-    height: 640px;
-    padding: 16px;
+
+    position: relative;
+    &::before {
+        content: "";
+        display: block;
+        padding-top: 175%;
+    }
 
     @include var-mixin.tab {
         width: 47%;
@@ -16,18 +16,36 @@
         &:nth-child(2) {
             margin-left: 5%;
         }
+    }
+}
 
+.p-card__main {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-position: center;
+    background-size: cover;
+    padding: 5%;
+
+    @include var-mixin.pc-wide {
+        padding: 10%;
+    
     }
 }
 
 .p-card_img-takeout {
     background-image: url('../img/front-page__burger.jpeg');
+    background-size: cover;
 
 }
 
 .p-card_img-eatin {
     background-image: url('../img/front-page__potato.png');
-
+    background-size: cover;
 }
 
 .p-card__title {
@@ -35,16 +53,6 @@
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 1em;
-
-}
-
-.p-card--img-takeout {
-    background-image: url('../img/front-page__burger.jpeg');
-
-}
-
-.p-card--img-eatin {
-    background-image: url('../img/front-page__potato.png');
 
 }
 

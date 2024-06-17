@@ -1,48 +1,53 @@
 <div class="p-front u-inner">
                 <div class="p-front-category__menu">
                     <div class="p-card p-card_img-takeout p-front__card--top">
-                        <div class="p-card__title u-under-line"> 
-                            Take Out
-                        </div>
-                        <div class="p-card__contents">
-                            <div class="p-card__content p-card__content--top">
-                                <p class="p-card__content-title">
-                                    Take Out
-                                </p>
-                                <p class="u-sentence">
-                                    当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています
-                                </p>
+                        <div class="p-card__main">
+                            <div class="p-card__title u-under-line"> 
+                                Take Out
                             </div>
-                            <div class="p-card__content">
-                                <p class="p-card__content-title">
-                                    Take Out
-                                </p>
-                                <p class="u-sentence">
-                                    当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています
-                                </p>
+                            <div class="p-card__contents">
+                                <div class="p-card__content p-card__content--top">
+                                    <p class="p-card__content-title">
+                                        Take Out
+                                    </p>
+                                    <p class="u-sentence">
+                                        当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています
+                                    </p>
+                                </div>
+                                <div class="p-card__content">
+                                    <p class="p-card__content-title">
+                                        Take Out
+                                    </p>
+                                    <p class="u-sentence">
+                                        当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています
+                                    </p>
+                                </div>
                             </div>
                         </div>
+                        <!-- /.p-card__main -->
                     </div>
                     <div class="p-card p-card_img-eatin">
-                        <div class="p-card__title u-under-line"> 
-                            Eat In
-                        </div>
-                        <div class="p-card__contents">
-                            <div class="p-card__content p-card__content--top">
-                                <p class="p-card__content-title">
-                                    Eat In
-                                </p>
-                                <p class="u-sentence">
-                                    店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです
-                                </p>
+                        <div class="p-card__main">
+                            <div class="p-card__title u-under-line"> 
+                                Eat In
                             </div>
-                            <div class="p-card__content">
-                                <p class="p-card__content-title">
-                                    Eat In
-                                </p>
-                                <p class="u-sentence">
-                                    店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです
-                                </p>
+                            <div class="p-card__contents">
+                                <div class="p-card__content p-card__content--top">
+                                    <p class="p-card__content-title">
+                                        Eat In
+                                    </p>
+                                    <p class="u-sentence">
+                                        店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです
+                                    </p>
+                                </div>
+                                <div class="p-card__content">
+                                    <p class="p-card__content-title">
+                                        Eat In
+                                    </p>
+                                    <p class="u-sentence">
+                                        店内でお食事いただけるメニューです店内でお食事いただけるメニューです店内でお食事いただけるメニューです
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>

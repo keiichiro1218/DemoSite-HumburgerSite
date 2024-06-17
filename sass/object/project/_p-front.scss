@@ -19,5 +19,10 @@
 
 .p-front__card--top {
     margin-bottom: 16px;
+
+    @include var-mixin.tab {
+        margin-bottom: 0;
     
+    }
+
 }
