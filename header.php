@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description=" content="デモサイトです">
+    
+    <link rel="canonical" href="https://k-chiba.com">
     <title><?php esc_html( wp_get_document_title() ); ?></title>
     <script src="https://kit.fontawesome.com/73db00d111.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">

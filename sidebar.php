@@ -1,10 +1,10 @@
-<div class="l-aside">
+<div class="l-sidebar">
     <div class="p-background-sp-menu"></div>
-    <div class="p-aside">
-        <div class="p-aside__button_close">
+    <div class="p-sidebar">
+        <div class="p-sidebar__button_close">
             <div class="c-button_close-sp c-button_sp_line"></div>
         </div>
-        <div class="p-aside__button c-button-menu">
+        <div class="p-sidebar__button c-button-menu">
             MENU
         </div>
         <nav class="p-nav">
@@ -19,9 +19,9 @@
         </nav>
         <!-- .p-nav -->
     </div>
-    <!-- .p-aside -->
+    <!-- .p-sidebar -->
 </div>
-<!-- l-aside -->
+<!-- l-sidebar -->
 </div>
 <!-- l-container -->
     <?php wp_footer(); ?>

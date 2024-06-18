@@ -288,23 +288,6 @@ html {
   font-family: "Roboto", "M PLUS 1p", sans-serif;
 }
 
-.l-aside {
-  z-index: 10;
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: 0;
-  display: none;
-}
-@media screen and (min-width: 1000px) {
-  .l-aside {
-    width: 25%;
-    display: block;
-    height: auto;
-    position: static;
-  }
-}
-
 .l-container {
   position: relative;
 }
@@ -342,6 +325,23 @@ html {
   .l-main {
     width: 75%;
     position: relative;
+  }
+}
+
+.l-sidebar {
+  z-index: 10;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  display: none;
+}
+@media screen and (min-width: 1000px) {
+  .l-sidebar {
+    width: 25%;
+    display: block;
+    height: auto;
+    position: static;
   }
 }
 
@@ -548,48 +548,6 @@ html {
 @media screen and (min-width: 650px) {
   .p-article__heading-h6 {
     margin-bottom: 56px;
-  }
-}
-
-.p-aside {
-  background-color: #F2EDE9;
-  height: 100%;
-  width: 80%;
-  position: relative;
-  padding-top: 90px;
-  padding-left: 15%;
-}
-@media screen and (min-width: 650px) {
-  .p-aside {
-    width: 100%;
-    padding-top: 180px;
-  }
-}
-@media screen and (min-width: 1000px) {
-  .p-aside {
-    padding-top: 86px;
-  }
-}
-
-.p-aside__button {
-  margin-bottom: 80px;
-  display: none;
-}
-@media screen and (min-width: 1000px) {
-  .p-aside__button {
-    display: block;
-  }
-}
-
-.p-aside__button_close {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  z-index: 20;
-}
-@media screen and (min-width: 1000px) {
-  .p-aside__button_close {
-    display: none;
   }
 }
 
@@ -1336,6 +1294,48 @@ html {
 @media screen and (min-width: 650px) {
   .p-search__result a {
     font-size: 2rem;
+  }
+}
+
+.p-sidebar {
+  background-color: #F2EDE9;
+  height: 100%;
+  width: 80%;
+  position: relative;
+  padding-top: 90px;
+  padding-left: 15%;
+}
+@media screen and (min-width: 650px) {
+  .p-sidebar {
+    width: 100%;
+    padding-top: 180px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .p-sidebar {
+    padding-top: 86px;
+  }
+}
+
+.p-sidebar__button {
+  margin-bottom: 80px;
+  display: none;
+}
+@media screen and (min-width: 1000px) {
+  .p-sidebar__button {
+    display: block;
+  }
+}
+
+.p-sidebar__button_close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 20;
+}
+@media screen and (min-width: 1000px) {
+  .p-sidebar__button_close {
+    display: none;
   }
 }
 

@@ -1,6 +1,6 @@
 @use "./foundation/_var-mixin.scss" as var-mixin;
 
-.p-aside {
+.p-sidebar {
     background-color: var-mixin.$gray-thin;
     height: 100%;
     width: 80%;
@@ -19,7 +19,7 @@
     }
 }
 
-.p-aside__button {
+.p-sidebar__button {
     margin-bottom: 80px;
     display: none;
 
@@ -29,7 +29,7 @@
     }
 }
 
-.p-aside__button_close {
+.p-sidebar__button_close {
     position: absolute;
     top: 8px;
     right: 8px;
