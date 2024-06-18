@@ -10,9 +10,6 @@ function my_enqueue_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'my_enqueue_scripts');
 
-// add_theme_support('post-thumbnails');
-
-
 // メニュー、カスタム投稿タイプの登録
 add_action('init', function() {
 

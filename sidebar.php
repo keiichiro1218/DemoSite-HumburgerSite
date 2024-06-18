@@ -22,7 +22,6 @@
     <!-- .p-aside -->
 </div>
 <!-- l-aside -->
-<!-- <div class="p-background-sp-menu"></div> -->
 </div>
 <!-- l-container -->
     <?php wp_footer(); ?>

@@ -14,4 +14,5 @@ function sass() {
 exports.sass = function () {
     gulp.watch('sass/*/*.scss', sass);
     gulp.watch('sass/*/*/*.scss', sass);
+    
 }
